@@ -45,7 +45,20 @@
                   "radius": 9.5
                 }
               ],
-              "constraints": []
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 19,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                }
+              ]
             },
             "dependsOn": []
           },
@@ -89,7 +102,20 @@
                   "radius": 2.5
                 }
               ],
-              "constraints": []
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 5,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                }
+              ]
             },
             "dependsOn": [
               "ex-1"
@@ -138,7 +164,20 @@
                   "radius": 2.5
                 }
               ],
-              "constraints": []
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 5,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                }
+              ]
             },
             "dependsOn": [
               "ex-1"
@@ -197,7 +236,48 @@
                   "radius": 1.25
                 }
               ],
-              "constraints": []
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 2.5,
+                  "id": "k1"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "origin",
+                  "b": "p1",
+                  "value": 0,
+                  "id": "k2"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p1",
+                  "value": 6.25,
+                  "id": "k3"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c2",
+                  "value": 2.5,
+                  "id": "k4"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "origin",
+                  "b": "p2",
+                  "value": 0,
+                  "id": "k5"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p2",
+                  "value": 18.75,
+                  "id": "k6"
+                }
+              ]
             },
             "dependsOn": []
           },

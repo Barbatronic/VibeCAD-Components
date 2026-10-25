@@ -57,7 +57,32 @@
                   "radius": 2.5
                 }
               ],
-              "constraints": []
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 16,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c2",
+                  "value": 5,
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p2",
+                  "id": "k4"
+                }
+              ]
             },
             "dependsOn": []
           },
@@ -178,7 +203,32 @@
                   "radius": 4.04
                 }
               ],
-              "constraints": []
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 14.02,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c2",
+                  "value": 8.08,
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p2",
+                  "id": "k4"
+                }
+              ]
             },
             "dependsOn": [
               "ex-1"
@@ -239,7 +289,32 @@
                   "radius": 4.04
                 }
               ],
-              "constraints": []
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 14.02,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c2",
+                  "value": 8.08,
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p2",
+                  "id": "k4"
+                }
+              ]
             },
             "dependsOn": [
               "ex-1"
