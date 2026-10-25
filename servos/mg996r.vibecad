@@ -1,0 +1,674 @@
+{
+  "format": "vibecad",
+  "schemaVersion": 1,
+  "generator": {
+    "name": "VibeCAD",
+    "version": "0.1.0"
+  },
+  "savedAt": "2026-10-25T00:00:00.000Z",
+  "document": {
+    "id": "doc-1",
+    "name": "Servomoteur MG996R",
+    "units": "mm",
+    "createdAt": "2026-10-25T00:00:00.000Z",
+    "modifiedAt": "2026-10-25T00:00:00.000Z",
+    "parts": [
+      {
+        "id": "part-1",
+        "name": "Servomoteur MG996R",
+        "color": "#626a76",
+        "visible": true,
+        "material": "abs",
+        "features": [
+          {
+            "id": "sk-1",
+            "type": "sketch",
+            "name": "Esquisse 1",
+            "visible": true,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": 0
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": -20.35,
+                  "y": -9.85
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": 20.35,
+                  "y": -9.85
+                },
+                {
+                  "id": "l1",
+                  "type": "line",
+                  "a": "p1",
+                  "b": "p2"
+                },
+                {
+                  "id": "p3",
+                  "type": "point",
+                  "x": 20.35,
+                  "y": -9.85
+                },
+                {
+                  "id": "p4",
+                  "type": "point",
+                  "x": 20.35,
+                  "y": 9.85
+                },
+                {
+                  "id": "l2",
+                  "type": "line",
+                  "a": "p3",
+                  "b": "p4"
+                },
+                {
+                  "id": "p5",
+                  "type": "point",
+                  "x": 20.35,
+                  "y": 9.85
+                },
+                {
+                  "id": "p6",
+                  "type": "point",
+                  "x": -20.35,
+                  "y": 9.85
+                },
+                {
+                  "id": "l3",
+                  "type": "line",
+                  "a": "p5",
+                  "b": "p6"
+                },
+                {
+                  "id": "p7",
+                  "type": "point",
+                  "x": -20.35,
+                  "y": 9.85
+                },
+                {
+                  "id": "p8",
+                  "type": "point",
+                  "x": -20.35,
+                  "y": -9.85
+                },
+                {
+                  "id": "l4",
+                  "type": "line",
+                  "a": "p7",
+                  "b": "p8"
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "coincident",
+                  "a": "p2",
+                  "b": "p3",
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p4",
+                  "b": "p5",
+                  "id": "k2"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p6",
+                  "b": "p7",
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p8",
+                  "b": "p1",
+                  "id": "k4"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l1",
+                  "id": "k5"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l3",
+                  "id": "k6"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l2",
+                  "id": "k7"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l4",
+                  "id": "k8"
+                },
+                {
+                  "type": "length",
+                  "line": "l1",
+                  "value": 40.7,
+                  "id": "k9"
+                },
+                {
+                  "type": "length",
+                  "line": "l4",
+                  "value": 19.7,
+                  "id": "k10"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 20.35,
+                  "id": "k11"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 9.85,
+                  "id": "k12"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "ex-1",
+            "type": "extrude",
+            "name": "Extrusion 1",
+            "params": {
+              "sketchId": "sk-1",
+              "distance": 36.8,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-1"
+            ]
+          },
+          {
+            "id": "sk-2",
+            "type": "sketch",
+            "name": "Esquisse 2",
+            "visible": true,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": 26.6
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": -27.25,
+                  "y": -9.85
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": 27.25,
+                  "y": -9.85
+                },
+                {
+                  "id": "l1",
+                  "type": "line",
+                  "a": "p1",
+                  "b": "p2"
+                },
+                {
+                  "id": "p3",
+                  "type": "point",
+                  "x": 27.25,
+                  "y": -9.85
+                },
+                {
+                  "id": "p4",
+                  "type": "point",
+                  "x": 27.25,
+                  "y": 9.85
+                },
+                {
+                  "id": "l2",
+                  "type": "line",
+                  "a": "p3",
+                  "b": "p4"
+                },
+                {
+                  "id": "p5",
+                  "type": "point",
+                  "x": 27.25,
+                  "y": 9.85
+                },
+                {
+                  "id": "p6",
+                  "type": "point",
+                  "x": -27.25,
+                  "y": 9.85
+                },
+                {
+                  "id": "l3",
+                  "type": "line",
+                  "a": "p5",
+                  "b": "p6"
+                },
+                {
+                  "id": "p7",
+                  "type": "point",
+                  "x": -27.25,
+                  "y": 9.85
+                },
+                {
+                  "id": "p8",
+                  "type": "point",
+                  "x": -27.25,
+                  "y": -9.85
+                },
+                {
+                  "id": "l4",
+                  "type": "line",
+                  "a": "p7",
+                  "b": "p8"
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "coincident",
+                  "a": "p2",
+                  "b": "p3",
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p4",
+                  "b": "p5",
+                  "id": "k2"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p6",
+                  "b": "p7",
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p8",
+                  "b": "p1",
+                  "id": "k4"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l1",
+                  "id": "k5"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l3",
+                  "id": "k6"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l2",
+                  "id": "k7"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l4",
+                  "id": "k8"
+                },
+                {
+                  "type": "length",
+                  "line": "l1",
+                  "value": 54.5,
+                  "id": "k9"
+                },
+                {
+                  "type": "length",
+                  "line": "l4",
+                  "value": 19.7,
+                  "id": "k10"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 27.25,
+                  "id": "k11"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 9.85,
+                  "id": "k12"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "ex-2",
+            "type": "extrude",
+            "name": "Extrusion 2",
+            "params": {
+              "sketchId": "sk-2",
+              "distance": 2.5,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-2"
+            ]
+          },
+          {
+            "id": "sk-3",
+            "type": "sketch",
+            "name": "Esquisse 3",
+            "visible": true,
+            "params": {
+              "support": {
+                "kind": "face",
+                "ref": {
+                  "featureId": "ex-2",
+                  "role": "end"
+                }
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": -24.75,
+                  "y": -5
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 2.3
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": -24.75,
+                  "y": 5
+                },
+                {
+                  "id": "c2",
+                  "type": "circle",
+                  "center": "p2",
+                  "radius": 2.3
+                },
+                {
+                  "id": "p3",
+                  "type": "point",
+                  "x": 24.75,
+                  "y": -5
+                },
+                {
+                  "id": "c3",
+                  "type": "circle",
+                  "center": "p3",
+                  "radius": 2.3
+                },
+                {
+                  "id": "p4",
+                  "type": "point",
+                  "x": 24.75,
+                  "y": 5
+                },
+                {
+                  "id": "c4",
+                  "type": "circle",
+                  "center": "p4",
+                  "radius": 2.3
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 4.6,
+                  "id": "k1"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 24.75,
+                  "id": "k2"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 5,
+                  "id": "k3"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c2",
+                  "value": 4.6,
+                  "id": "k4"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p2",
+                  "b": "origin",
+                  "value": 24.75,
+                  "id": "k5"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p2",
+                  "value": 5,
+                  "id": "k6"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c3",
+                  "value": 4.6,
+                  "id": "k7"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "origin",
+                  "b": "p3",
+                  "value": 24.75,
+                  "id": "k8"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "p3",
+                  "b": "origin",
+                  "value": 5,
+                  "id": "k9"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c4",
+                  "value": 4.6,
+                  "id": "k10"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "origin",
+                  "b": "p4",
+                  "value": 24.75,
+                  "id": "k11"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p4",
+                  "value": 5,
+                  "id": "k12"
+                }
+              ]
+            },
+            "dependsOn": [
+              "ex-2"
+            ]
+          },
+          {
+            "id": "po-1",
+            "type": "pocket",
+            "name": "Poche 1",
+            "params": {
+              "sketchId": "sk-3",
+              "extent": {
+                "kind": "distance",
+                "distance": 3
+              },
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-3"
+            ]
+          },
+          {
+            "id": "sk-4",
+            "type": "sketch",
+            "name": "Esquisse 4",
+            "visible": true,
+            "params": {
+              "support": {
+                "kind": "face",
+                "ref": {
+                  "featureId": "ex-1",
+                  "role": "end"
+                }
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 10.35,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 6.5
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 13,
+                  "id": "k1"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "origin",
+                  "b": "p1",
+                  "value": 10.350000000000001,
+                  "id": "k2"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p1",
+                  "value": 0,
+                  "id": "k3"
+                }
+              ]
+            },
+            "dependsOn": [
+              "ex-1"
+            ]
+          },
+          {
+            "id": "ex-3",
+            "type": "extrude",
+            "name": "Extrusion 3",
+            "params": {
+              "sketchId": "sk-4",
+              "distance": 2,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-4"
+            ]
+          },
+          {
+            "id": "sk-5",
+            "type": "sketch",
+            "name": "Esquisse 5",
+            "visible": true,
+            "params": {
+              "support": {
+                "kind": "face",
+                "ref": {
+                  "featureId": "ex-3",
+                  "role": "end"
+                }
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 10.35,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 2.9
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 5.8,
+                  "id": "k1"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "origin",
+                  "b": "p1",
+                  "value": 10.350000000000001,
+                  "id": "k2"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p1",
+                  "value": 0,
+                  "id": "k3"
+                }
+              ]
+            },
+            "dependsOn": [
+              "ex-3"
+            ]
+          },
+          {
+            "id": "ex-4",
+            "type": "extrude",
+            "name": "Extrusion 4",
+            "params": {
+              "sketchId": "sk-5",
+              "distance": 4.1,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-5"
+            ]
+          }
+        ]
+      }
+    ],
+    "resources": {}
+  }
+}

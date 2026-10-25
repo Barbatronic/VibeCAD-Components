@@ -1,0 +1,31 @@
+{
+  "id": "mg996r",
+  "name": "Servomoteur MG996R",
+  "description": "Servomoteur MG996R : boîtier 40.7 × 19.7 × 36.8 mm, hauteur 42.9 mm avec la cannelure, pattes de 54.5 mm percées Ø 4.6 (entraxe 49.5 mm). Format standard, pignons métal, couple ≈ 1 N·m sous 6 V. Masse réelle ≈ 55 g (moteur et engrenages).",
+  "tags": [
+    "servomoteur",
+    "servo",
+    "MG996R",
+    "modélisme"
+  ],
+  "dimensions": {
+    "L": 40.7,
+    "W": 19.7,
+    "H": 36.8,
+    "pattes": 54.5,
+    "entraxe": 49.5
+  },
+  "material": "abs",
+  "volume": 30393.12,
+  "mass": 31.61,
+  "size": [
+    54.5,
+    19.7,
+    42.9
+  ],
+  "files": {
+    "vibecad": "mg996r.vibecad",
+    "step": "mg996r.step",
+    "preview": "mg996r.png"
+  }
+}

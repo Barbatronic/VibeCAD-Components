@@ -1,0 +1,31 @@
+{
+  "id": "sg90",
+  "name": "Servomoteur SG90",
+  "description": "Servomoteur SG90 : boîtier 22.5 × 12.2 × 22.7 mm, hauteur 29.9 mm avec la cannelure, pattes de 32.2 mm percées Ø 2.2 (entraxe 27.6 mm). Micro-servo, pignons plastique, couple ≈ 0,18 N·m sous 4,8 V. Masse réelle ≈ 9 g (moteur et engrenages).",
+  "tags": [
+    "servomoteur",
+    "servo",
+    "SG90",
+    "modélisme"
+  ],
+  "dimensions": {
+    "L": 22.5,
+    "W": 12.2,
+    "H": 22.7,
+    "pattes": 32.2,
+    "entraxe": 27.6
+  },
+  "material": "abs",
+  "volume": 7003.33,
+  "mass": 7.28,
+  "size": [
+    32.2,
+    12.2,
+    29.9
+  ],
+  "files": {
+    "vibecad": "sg90.vibecad",
+    "step": "sg90.step",
+    "preview": "sg90.png"
+  }
+}
