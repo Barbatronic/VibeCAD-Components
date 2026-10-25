@@ -1,0 +1,28 @@
+{
+  "id": "625-2rs",
+  "name": "Roulement 625-2RS",
+  "description": "Roulement à billes 625-2RS : alésage 5 mm, diamètre extérieur 16 mm, largeur 5 mm.",
+  "tags": [
+    "roulement",
+    "625",
+    "5x16x5"
+  ],
+  "dimensions": {
+    "d": 5,
+    "D": 16,
+    "B": 5
+  },
+  "material": "steel",
+  "volume": 833.82,
+  "mass": 6.55,
+  "size": [
+    16,
+    16,
+    5
+  ],
+  "files": {
+    "vibecad": "625-2rs.vibecad",
+    "step": "625-2rs.step",
+    "preview": "625-2rs.png"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "gt2-36t-5mm",
+  "name": "Poulie GT2 36 dents",
+  "description": "Poulie crantée GT2 36 dents pour courroie de 6 mm, alésage 5 mm, avec flasques.",
+  "tags": [
+    "poulie",
+    "GT2",
+    "courroie"
+  ],
+  "dimensions": {
+    "dents": 36,
+    "alésage": 5,
+    "largeur": 7
+  },
+  "material": "aluminium",
+  "volume": 3407.88,
+  "mass": 9.2,
+  "size": [
+    25.41,
+    25.41,
+    9
+  ],
+  "files": {
+    "vibecad": "gt2-36t-5mm.vibecad",
+    "step": "gt2-36t-5mm.step",
+    "preview": "gt2-36t-5mm.png"
+  }
+}

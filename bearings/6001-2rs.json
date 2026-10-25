@@ -1,0 +1,28 @@
+{
+  "id": "6001-2rs",
+  "name": "Roulement 6001-2RS",
+  "description": "Roulement à billes 6001-2RS : alésage 12 mm, diamètre extérieur 28 mm, largeur 8 mm.",
+  "tags": [
+    "roulement",
+    "6001",
+    "12x28x8"
+  ],
+  "dimensions": {
+    "d": 12,
+    "D": 28,
+    "B": 8
+  },
+  "material": "steel",
+  "volume": 3820.45,
+  "mass": 29.99,
+  "size": [
+    28,
+    28,
+    8
+  ],
+  "files": {
+    "vibecad": "6001-2rs.vibecad",
+    "step": "6001-2rs.step",
+    "preview": "6001-2rs.png"
+  }
+}

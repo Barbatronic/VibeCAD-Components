@@ -1,0 +1,421 @@
+{
+  "format": "vibecad",
+  "schemaVersion": 1,
+  "generator": {
+    "name": "VibeCAD",
+    "version": "0.1.0"
+  },
+  "savedAt": "2026-10-25T00:00:00.000Z",
+  "document": {
+    "id": "doc-1",
+    "name": "Moteur NEMA 17 × 40",
+    "units": "mm",
+    "createdAt": "2026-10-25T00:00:00.000Z",
+    "modifiedAt": "2026-10-25T00:00:00.000Z",
+    "parts": [
+      {
+        "id": "part-1",
+        "name": "Moteur NEMA 17 × 40",
+        "color": "#6b7480",
+        "visible": true,
+        "material": "steel",
+        "features": [
+          {
+            "id": "sk-1",
+            "type": "sketch",
+            "name": "Esquisse 1",
+            "visible": true,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": 0
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": -21.15,
+                  "y": -21.15
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": 21.15,
+                  "y": -21.15
+                },
+                {
+                  "id": "l1",
+                  "type": "line",
+                  "a": "p1",
+                  "b": "p2"
+                },
+                {
+                  "id": "p3",
+                  "type": "point",
+                  "x": 21.15,
+                  "y": -21.15
+                },
+                {
+                  "id": "p4",
+                  "type": "point",
+                  "x": 21.15,
+                  "y": 21.15
+                },
+                {
+                  "id": "l2",
+                  "type": "line",
+                  "a": "p3",
+                  "b": "p4"
+                },
+                {
+                  "id": "p5",
+                  "type": "point",
+                  "x": 21.15,
+                  "y": 21.15
+                },
+                {
+                  "id": "p6",
+                  "type": "point",
+                  "x": -21.15,
+                  "y": 21.15
+                },
+                {
+                  "id": "l3",
+                  "type": "line",
+                  "a": "p5",
+                  "b": "p6"
+                },
+                {
+                  "id": "p7",
+                  "type": "point",
+                  "x": -21.15,
+                  "y": 21.15
+                },
+                {
+                  "id": "p8",
+                  "type": "point",
+                  "x": -21.15,
+                  "y": -21.15
+                },
+                {
+                  "id": "l4",
+                  "type": "line",
+                  "a": "p7",
+                  "b": "p8"
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "coincident",
+                  "a": "p2",
+                  "b": "p3",
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p4",
+                  "b": "p5",
+                  "id": "k2"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p6",
+                  "b": "p7",
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p8",
+                  "b": "p1",
+                  "id": "k4"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l1",
+                  "id": "k5"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l3",
+                  "id": "k6"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l2",
+                  "id": "k7"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l4",
+                  "id": "k8"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "ex-1",
+            "type": "extrude",
+            "name": "Extrusion 1",
+            "params": {
+              "sketchId": "sk-1",
+              "distance": 40,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-1"
+            ]
+          },
+          {
+            "id": "ch-1",
+            "type": "chamfer",
+            "name": "Chanfrein 1",
+            "params": {
+              "edges": [
+                {
+                  "faces": [
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l1"
+                    },
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l2"
+                    }
+                  ]
+                },
+                {
+                  "faces": [
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l2"
+                    },
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l3"
+                    }
+                  ]
+                },
+                {
+                  "faces": [
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l3"
+                    },
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l4"
+                    }
+                  ]
+                },
+                {
+                  "faces": [
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l4"
+                    },
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l1"
+                    }
+                  ]
+                }
+              ],
+              "distance": 4
+            },
+            "dependsOn": [
+              "ex-1"
+            ]
+          },
+          {
+            "id": "sk-2",
+            "type": "sketch",
+            "name": "Esquisse 2",
+            "visible": true,
+            "params": {
+              "support": {
+                "kind": "face",
+                "ref": {
+                  "featureId": "ex-1",
+                  "role": "end"
+                }
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 11
+                }
+              ],
+              "constraints": []
+            },
+            "dependsOn": [
+              "ex-1"
+            ]
+          },
+          {
+            "id": "ex-2",
+            "type": "extrude",
+            "name": "Extrusion 2",
+            "params": {
+              "sketchId": "sk-2",
+              "distance": 2,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-2"
+            ]
+          },
+          {
+            "id": "sk-3",
+            "type": "sketch",
+            "name": "Esquisse 3",
+            "visible": true,
+            "params": {
+              "support": {
+                "kind": "face",
+                "ref": {
+                  "featureId": "ex-2",
+                  "role": "end"
+                }
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 2.5
+                }
+              ],
+              "constraints": []
+            },
+            "dependsOn": [
+              "ex-2"
+            ]
+          },
+          {
+            "id": "ex-3",
+            "type": "extrude",
+            "name": "Extrusion 3",
+            "params": {
+              "sketchId": "sk-3",
+              "distance": 24,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-3"
+            ]
+          },
+          {
+            "id": "sk-4",
+            "type": "sketch",
+            "name": "Esquisse 4",
+            "visible": true,
+            "params": {
+              "support": {
+                "kind": "face",
+                "ref": {
+                  "featureId": "ex-1",
+                  "role": "end"
+                }
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": -15.5,
+                  "y": -15.5
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 1.25
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": -15.5,
+                  "y": 15.5
+                },
+                {
+                  "id": "c2",
+                  "type": "circle",
+                  "center": "p2",
+                  "radius": 1.25
+                },
+                {
+                  "id": "p3",
+                  "type": "point",
+                  "x": 15.5,
+                  "y": -15.5
+                },
+                {
+                  "id": "c3",
+                  "type": "circle",
+                  "center": "p3",
+                  "radius": 1.25
+                },
+                {
+                  "id": "p4",
+                  "type": "point",
+                  "x": 15.5,
+                  "y": 15.5
+                },
+                {
+                  "id": "c4",
+                  "type": "circle",
+                  "center": "p4",
+                  "radius": 1.25
+                }
+              ],
+              "constraints": []
+            },
+            "dependsOn": [
+              "ex-1"
+            ]
+          },
+          {
+            "id": "po-1",
+            "type": "pocket",
+            "name": "Poche 1",
+            "params": {
+              "sketchId": "sk-4",
+              "extent": {
+                "kind": "distance",
+                "distance": 4.5
+              },
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-4"
+            ]
+          }
+        ]
+      }
+    ],
+    "resources": {}
+  }
+}

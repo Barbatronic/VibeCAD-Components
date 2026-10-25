@@ -1,0 +1,28 @@
+{
+  "id": "gt2-16t-5mm",
+  "name": "Poulie GT2 16 dents",
+  "description": "Poulie crantée GT2 16 dents pour courroie de 6 mm, alésage 5 mm, avec flasques.",
+  "tags": [
+    "poulie",
+    "GT2",
+    "courroie"
+  ],
+  "dimensions": {
+    "dents": 16,
+    "alésage": 5,
+    "largeur": 7
+  },
+  "material": "aluminium",
+  "volume": 506.79,
+  "mass": 1.37,
+  "size": [
+    12.68,
+    12.68,
+    9
+  ],
+  "files": {
+    "vibecad": "gt2-16t-5mm.vibecad",
+    "step": "gt2-16t-5mm.step",
+    "preview": "gt2-16t-5mm.png"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rigid-5x8",
+  "name": "Accouplement rigide 5 / 8 mm",
+  "description": "Accouplement rigide Ø 19 × 25 mm entre un arbre de 5 mm et un arbre de 8 mm, deux vis de pression M3.",
+  "tags": [
+    "accouplement",
+    "arbre",
+    "5x8"
+  ],
+  "dimensions": {
+    "D": 19,
+    "L": 25,
+    "d1": 5,
+    "d2": 8
+  },
+  "material": "aluminium",
+  "volume": 6075.51,
+  "mass": 16.4,
+  "size": [
+    19,
+    19,
+    25
+  ],
+  "files": {
+    "vibecad": "rigid-5x8.vibecad",
+    "step": "rigid-5x8.step",
+    "preview": "rigid-5x8.png"
+  }
+}

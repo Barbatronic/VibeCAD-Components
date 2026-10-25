@@ -1,0 +1,28 @@
+{
+  "id": "nema17-34",
+  "name": "Moteur NEMA 17 × 34 mm",
+  "description": "Moteur pas à pas NEMA 17, corps de 34 mm, arbre Ø 5 × 24 mm, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe.",
+  "tags": [
+    "moteur",
+    "pas à pas",
+    "NEMA 17"
+  ],
+  "dimensions": {
+    "A": 42.3,
+    "L": 34,
+    "arbre": 5
+  },
+  "material": "steel",
+  "volume": 60891.01,
+  "mass": 477.99,
+  "size": [
+    42.3,
+    42.3,
+    60
+  ],
+  "files": {
+    "vibecad": "nema17-34.vibecad",
+    "step": "nema17-34.step",
+    "preview": "nema17-34.png"
+  }
+}
