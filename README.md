@@ -48,7 +48,7 @@ vignettes restent cohérents et reproductibles.
 <!-- composants:début (généré par tools/build-index.mjs) -->
 ### Roulements (`bearings/`)
 
-Roulements à billes à gorge profonde, avec flasques (2RS).
+Roulements à billes à gorge profonde, à joints (2RS) ou flasques métalliques (ZZ), avec ou sans collerette.
 
 | | Composant | Fichiers |
 |---|---|---|
@@ -56,6 +56,7 @@ Roulements à billes à gorge profonde, avec flasques (2RS).
 | <img src="bearings/625-2rs.png" width="96" alt=""> | **Roulement 625-2RS**<br>Roulement à billes 625-2RS : alésage 5 mm, diamètre extérieur 16 mm, largeur 5 mm. | [.vibecad](bearings/625-2rs.vibecad) · [.step](bearings/625-2rs.step) |
 | <img src="bearings/6001-2rs.png" width="96" alt=""> | **Roulement 6001-2RS**<br>Roulement à billes 6001-2RS : alésage 12 mm, diamètre extérieur 28 mm, largeur 8 mm. | [.vibecad](bearings/6001-2rs.vibecad) · [.step](bearings/6001-2rs.step) |
 | <img src="bearings/6800-2rs.png" width="96" alt=""> | **Roulement 6800-2RS**<br>Roulement à billes 6800-2RS : alésage 10 mm, diamètre extérieur 19 mm, largeur 5 mm. | [.vibecad](bearings/6800-2rs.vibecad) · [.step](bearings/6800-2rs.step) |
+| <img src="bearings/mf83zz.png" width="96" alt=""> | **Roulement MF83ZZ**<br>Roulement à billes à collerette MF83ZZ : alésage 3 mm, diamètre extérieur 8 mm, largeur 3 mm, collerette Ø 9,2 × 0,6 mm. | [.vibecad](bearings/mf83zz.vibecad) · [.step](bearings/mf83zz.step) |
 
 ### Accouplements (`couplers/`)
 

@@ -1,0 +1,31 @@
+{
+  "id": "mf83zz",
+  "name": "Roulement MF83ZZ",
+  "description": "Roulement à billes à collerette MF83ZZ : alésage 3 mm, diamètre extérieur 8 mm, largeur 3 mm, collerette Ø 9,2 × 0,6 mm.",
+  "tags": [
+    "roulement",
+    "MF83",
+    "3x8x3",
+    "collerette"
+  ],
+  "dimensions": {
+    "d": 3,
+    "D": 8,
+    "B": 3,
+    "D1": 9.2,
+    "C1": 0.6
+  },
+  "material": "steel",
+  "volume": 123.29,
+  "mass": 0.97,
+  "size": [
+    9.2,
+    9.2,
+    3
+  ],
+  "files": {
+    "vibecad": "mf83zz.vibecad",
+    "step": "mf83zz.step",
+    "preview": "mf83zz.png"
+  }
+}

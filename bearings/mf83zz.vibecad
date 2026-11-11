@@ -1,0 +1,410 @@
+{
+  "format": "vibecad",
+  "schemaVersion": 1,
+  "generator": {
+    "name": "VibeCAD",
+    "version": "0.1.0"
+  },
+  "savedAt": "2026-10-25T00:00:00.000Z",
+  "document": {
+    "id": "doc-1",
+    "name": "Roulement MF83ZZ",
+    "units": "mm",
+    "createdAt": "2026-10-25T00:00:00.000Z",
+    "modifiedAt": "2026-10-25T00:00:00.000Z",
+    "parts": [
+      {
+        "id": "part-1",
+        "name": "Roulement MF83ZZ",
+        "color": "#b8c0ca",
+        "visible": true,
+        "material": "steel",
+        "features": [
+          {
+            "id": "sk-1",
+            "type": "sketch",
+            "name": "Esquisse 1",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": 0
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 4
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c2",
+                  "type": "circle",
+                  "center": "p2",
+                  "radius": 1.5
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 8,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c2",
+                  "value": 3,
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p2",
+                  "id": "k4"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "ex-1",
+            "type": "extrude",
+            "name": "Extrusion 1",
+            "params": {
+              "sketchId": "sk-1",
+              "distance": 3,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-1"
+            ]
+          },
+          {
+            "id": "ch-1",
+            "type": "chamfer",
+            "name": "Chanfrein 1",
+            "params": {
+              "edges": [
+                {
+                  "faces": [
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "c1"
+                    },
+                    {
+                      "featureId": "ex-1",
+                      "role": "end"
+                    }
+                  ]
+                },
+                {
+                  "faces": [
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "c2"
+                    },
+                    {
+                      "featureId": "ex-1",
+                      "role": "start"
+                    }
+                  ]
+                },
+                {
+                  "faces": [
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "c2"
+                    },
+                    {
+                      "featureId": "ex-1",
+                      "role": "end"
+                    }
+                  ]
+                }
+              ],
+              "distance": 0.25
+            },
+            "dependsOn": [
+              "ex-1"
+            ]
+          },
+          {
+            "id": "sk-2",
+            "type": "sketch",
+            "name": "Esquisse 2",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "face",
+                "ref": {
+                  "featureId": "ex-1",
+                  "role": "end"
+                }
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 3.55
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c2",
+                  "type": "circle",
+                  "center": "p2",
+                  "radius": 2.2
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 7.1,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c2",
+                  "value": 4.4,
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p2",
+                  "id": "k4"
+                }
+              ]
+            },
+            "dependsOn": [
+              "ex-1"
+            ]
+          },
+          {
+            "id": "po-1",
+            "type": "pocket",
+            "name": "Poche 1",
+            "params": {
+              "sketchId": "sk-2",
+              "extent": {
+                "kind": "distance",
+                "distance": 0.3
+              },
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-2"
+            ]
+          },
+          {
+            "id": "sk-3",
+            "type": "sketch",
+            "name": "Esquisse 3",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "face",
+                "ref": {
+                  "featureId": "ex-1",
+                  "role": "start"
+                }
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 3.55
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c2",
+                  "type": "circle",
+                  "center": "p2",
+                  "radius": 2.2
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 7.1,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c2",
+                  "value": 4.4,
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p2",
+                  "id": "k4"
+                }
+              ]
+            },
+            "dependsOn": [
+              "ex-1"
+            ]
+          },
+          {
+            "id": "po-2",
+            "type": "pocket",
+            "name": "Poche 2",
+            "params": {
+              "sketchId": "sk-3",
+              "extent": {
+                "kind": "distance",
+                "distance": 0.3
+              },
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-3"
+            ]
+          },
+          {
+            "id": "sk-4",
+            "type": "sketch",
+            "name": "Esquisse 4",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": 0
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 4.6
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c2",
+                  "type": "circle",
+                  "center": "p2",
+                  "radius": 3.8
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 9.2,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c2",
+                  "value": 7.6,
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p2",
+                  "id": "k4"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "ex-2",
+            "type": "extrude",
+            "name": "Extrusion 2",
+            "params": {
+              "sketchId": "sk-4",
+              "distance": 0.6,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-4"
+            ]
+          }
+        ]
+      }
+    ],
+    "resources": {}
+  }
+}

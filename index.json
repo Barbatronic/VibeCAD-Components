@@ -9,7 +9,7 @@
     {
       "id": "bearings",
       "name": "Roulements",
-      "description": "Roulements à billes à gorge profonde, avec flasques (2RS).",
+      "description": "Roulements à billes à gorge profonde, à joints (2RS) ou flasques métalliques (ZZ), avec ou sans collerette.",
       "components": [
         {
           "id": "608-2rs",
@@ -121,6 +121,37 @@
             "vibecad": "bearings/6800-2rs.vibecad",
             "step": "bearings/6800-2rs.step",
             "preview": "bearings/6800-2rs.png"
+          }
+        },
+        {
+          "id": "mf83zz",
+          "name": "Roulement MF83ZZ",
+          "description": "Roulement à billes à collerette MF83ZZ : alésage 3 mm, diamètre extérieur 8 mm, largeur 3 mm, collerette Ø 9,2 × 0,6 mm.",
+          "tags": [
+            "roulement",
+            "MF83",
+            "3x8x3",
+            "collerette"
+          ],
+          "dimensions": {
+            "d": 3,
+            "D": 8,
+            "B": 3,
+            "D1": 9.2,
+            "C1": 0.6
+          },
+          "material": "steel",
+          "volume": 123.29,
+          "mass": 0.97,
+          "size": [
+            9.2,
+            9.2,
+            3
+          ],
+          "files": {
+            "vibecad": "bearings/mf83zz.vibecad",
+            "step": "bearings/mf83zz.step",
+            "preview": "bearings/mf83zz.png"
           }
         }
       ]
