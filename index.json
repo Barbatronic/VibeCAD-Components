@@ -452,28 +452,29 @@
         {
           "id": "mg996r",
           "name": "Servomoteur MG996R",
-          "description": "Servomoteur MG996R : boîtier 40,7 × 19,7 × 36,8 mm, hauteur 42,9 mm avec la cannelure (25 dents), pattes de 54,5 mm percées Ø 4,6 (entraxe 49,5 mm). Format standard, pignons métal, couple ≈ 1 N·m sous 6 V. Masse réelle ≈ 55 g (moteur et engrenages).",
+          "description": "Servomoteur TowerPro MG996R : boîtier 40,7 × 20,5 × 40 mm, pattes de 54 mm percées Ø 4 (entraxe 49 × 10 mm), cannelure 25 dents Ø 6 taraudée M3. Repère de montage : axe de sortie sur Z, dessous des pattes en Z = 0. Pignons métal, couple ≈ 1 N·m sous 6 V. Masse réelle ≈ 55 g (moteur et engrenages).",
           "tags": [
             "servomoteur",
             "servo",
             "MG996R",
+            "TowerPro",
             "modélisme"
           ],
           "dimensions": {
             "L": 40.7,
-            "W": 19.7,
-            "H": 36.8,
-            "pattes": 54.5,
-            "entraxe": 49.5,
+            "W": 20.5,
+            "H": 40,
+            "pattes": 54,
+            "entraxe": 49,
             "dents": 25
           },
           "material": "abs",
-          "volume": 30361.36,
-          "mass": 31.58,
+          "volume": 31449.84,
+          "mass": 32.71,
           "size": [
-            64.6,
-            19.7,
-            42.9
+            59.6,
+            20.5,
+            43.76
           ],
           "files": {
             "vibecad": "servos/mg996r.vibecad",
