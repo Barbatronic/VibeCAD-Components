@@ -224,29 +224,32 @@
     {
       "id": "motors",
       "name": "Moteurs",
-      "description": "Moteurs pas à pas NEMA, avec centreur, arbre et taraudages de fixation.",
+      "description": "Moteurs pas à pas NEMA 17 : flasques et paquet de tôles, centreur, arbre à méplat, taraudages de fixation, connecteur JST-PH.",
       "components": [
         {
           "id": "nema17-34",
           "name": "Moteur NEMA 17 × 34 mm",
-          "description": "Moteur pas à pas NEMA 17, corps de 34 mm, arbre Ø 5 × 24 mm, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe.",
+          "description": "Moteur pas à pas NEMA 17, corps de 34 mm, arbre Ø 5 × 24 mm avec méplat, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe, connecteur JST-PH 6 broches.",
           "tags": [
             "moteur",
             "pas à pas",
-            "NEMA 17"
+            "NEMA 17",
+            "17HS"
           ],
           "dimensions": {
             "A": 42.3,
             "L": 34,
-            "arbre": 5
+            "arbre": 5,
+            "centreur": 22,
+            "entraxe": 31
           },
           "material": "steel",
-          "volume": 60891.01,
-          "mass": 477.99,
+          "volume": 60337.48,
+          "mass": 473.65,
           "size": [
             42.3,
             42.3,
-            60
+            58
           ],
           "files": {
             "vibecad": "motors/nema17-34.vibecad",
@@ -257,24 +260,27 @@
         {
           "id": "nema17-40",
           "name": "Moteur NEMA 17 × 40 mm",
-          "description": "Moteur pas à pas NEMA 17, corps de 40 mm, arbre Ø 5 × 24 mm, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe.",
+          "description": "Moteur pas à pas NEMA 17, corps de 40 mm, arbre Ø 5 × 24 mm avec méplat, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe, connecteur JST-PH 6 broches.",
           "tags": [
             "moteur",
             "pas à pas",
-            "NEMA 17"
+            "NEMA 17",
+            "17HS"
           ],
           "dimensions": {
             "A": 42.3,
             "L": 40,
-            "arbre": 5
+            "arbre": 5,
+            "centreur": 22,
+            "entraxe": 31
           },
           "material": "steel",
-          "volume": 71434.75,
-          "mass": 560.76,
+          "volume": 70881.22,
+          "mass": 556.42,
           "size": [
             42.3,
             42.3,
-            66
+            64
           ],
           "files": {
             "vibecad": "motors/nema17-40.vibecad",
@@ -285,24 +291,27 @@
         {
           "id": "nema17-48",
           "name": "Moteur NEMA 17 × 48 mm",
-          "description": "Moteur pas à pas NEMA 17, corps de 48 mm, arbre Ø 5 × 24 mm, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe.",
+          "description": "Moteur pas à pas NEMA 17, corps de 48 mm, arbre Ø 5 × 24 mm avec méplat, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe, connecteur JST-PH 6 broches.",
           "tags": [
             "moteur",
             "pas à pas",
-            "NEMA 17"
+            "NEMA 17",
+            "17HS"
           ],
           "dimensions": {
             "A": 42.3,
             "L": 48,
-            "arbre": 5
+            "arbre": 5,
+            "centreur": 22,
+            "entraxe": 31
           },
           "material": "steel",
-          "volume": 85493.07,
-          "mass": 671.12,
+          "volume": 84939.54,
+          "mass": 666.78,
           "size": [
             42.3,
             42.3,
-            74
+            72
           ],
           "files": {
             "vibecad": "motors/nema17-48.vibecad",
@@ -406,12 +415,12 @@
     {
       "id": "servos",
       "name": "Servomoteurs",
-      "description": "Servomoteurs de modélisme : format standard (MG996R) et micro (SG90, MG90S), avec pattes de fixation et cannelure de sortie.",
+      "description": "Servomoteurs de modélisme : format standard (MG996R) et micro (SG90, MG90S), boîtier en trois parties, pattes de fixation, cannelure dentée et sortie du câble. Axe de sortie à l’origine.",
       "components": [
         {
           "id": "mg90s",
           "name": "Servomoteur MG90S",
-          "description": "Servomoteur MG90S : boîtier 22.5 × 12.2 × 22.7 mm, hauteur 29.9 mm avec la cannelure, pattes de 32.2 mm percées Ø 2.2 (entraxe 27.6 mm). Micro-servo, pignons métal, couple ≈ 0,22 N·m sous 4,8 V. Masse réelle ≈ 13.4 g (moteur et engrenages).",
+          "description": "Servomoteur MG90S : boîtier 22,5 × 12,2 × 22,7 mm, hauteur 29,9 mm avec la cannelure (21 dents), pattes de 32,2 mm percées Ø 2,2 (entraxe 27,6 mm). Micro-servo, pignons métal, couple ≈ 0,22 N·m sous 4,8 V. Masse réelle ≈ 13,4 g (moteur et engrenages).",
           "tags": [
             "servomoteur",
             "servo",
@@ -423,13 +432,14 @@
             "W": 12.2,
             "H": 22.7,
             "pattes": 32.2,
-            "entraxe": 27.6
+            "entraxe": 27.6,
+            "dents": 21
           },
           "material": "abs",
-          "volume": 7003.33,
-          "mass": 7.28,
+          "volume": 7016.32,
+          "mass": 7.3,
           "size": [
-            32.2,
+            40.85,
             12.2,
             29.9
           ],
@@ -442,7 +452,7 @@
         {
           "id": "mg996r",
           "name": "Servomoteur MG996R",
-          "description": "Servomoteur MG996R : boîtier 40.7 × 19.7 × 36.8 mm, hauteur 42.9 mm avec la cannelure, pattes de 54.5 mm percées Ø 4.6 (entraxe 49.5 mm). Format standard, pignons métal, couple ≈ 1 N·m sous 6 V. Masse réelle ≈ 55 g (moteur et engrenages).",
+          "description": "Servomoteur MG996R : boîtier 40,7 × 19,7 × 36,8 mm, hauteur 42,9 mm avec la cannelure (25 dents), pattes de 54,5 mm percées Ø 4,6 (entraxe 49,5 mm). Format standard, pignons métal, couple ≈ 1 N·m sous 6 V. Masse réelle ≈ 55 g (moteur et engrenages).",
           "tags": [
             "servomoteur",
             "servo",
@@ -454,13 +464,14 @@
             "W": 19.7,
             "H": 36.8,
             "pattes": 54.5,
-            "entraxe": 49.5
+            "entraxe": 49.5,
+            "dents": 25
           },
           "material": "abs",
-          "volume": 30393.12,
-          "mass": 31.61,
+          "volume": 30360.78,
+          "mass": 31.58,
           "size": [
-            54.5,
+            64.6,
             19.7,
             42.9
           ],
@@ -473,7 +484,7 @@
         {
           "id": "sg90",
           "name": "Servomoteur SG90",
-          "description": "Servomoteur SG90 : boîtier 22.5 × 12.2 × 22.7 mm, hauteur 29.9 mm avec la cannelure, pattes de 32.2 mm percées Ø 2.2 (entraxe 27.6 mm). Micro-servo, pignons plastique, couple ≈ 0,18 N·m sous 4,8 V. Masse réelle ≈ 9 g (moteur et engrenages).",
+          "description": "Servomoteur SG90 : boîtier 22,5 × 12,2 × 22,7 mm, hauteur 29,9 mm avec la cannelure (21 dents), pattes de 32,2 mm percées Ø 2,2 (entraxe 27,6 mm). Micro-servo, pignons plastique, couple ≈ 0,18 N·m sous 4,8 V. Masse réelle ≈ 9 g (moteur et engrenages).",
           "tags": [
             "servomoteur",
             "servo",
@@ -485,13 +496,14 @@
             "W": 12.2,
             "H": 22.7,
             "pattes": 32.2,
-            "entraxe": 27.6
+            "entraxe": 27.6,
+            "dents": 21
           },
           "material": "abs",
-          "volume": 7003.33,
-          "mass": 7.28,
+          "volume": 7016.32,
+          "mass": 7.3,
           "size": [
-            32.2,
+            40.85,
             12.2,
             29.9
           ],

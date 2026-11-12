@@ -69,13 +69,13 @@ Accouplements rigides entre deux arbres, avec vis de pression.
 
 ### Moteurs (`motors/`)
 
-Moteurs pas à pas NEMA, avec centreur, arbre et taraudages de fixation.
+Moteurs pas à pas NEMA 17 : flasques et paquet de tôles, centreur, arbre à méplat, taraudages de fixation, connecteur JST-PH.
 
 | | Composant | Fichiers |
 |---|---|---|
-| <img src="motors/nema17-34.png" width="96" alt=""> | **Moteur NEMA 17 × 34 mm**<br>Moteur pas à pas NEMA 17, corps de 34 mm, arbre Ø 5 × 24 mm, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe. | [.vibecad](motors/nema17-34.vibecad) · [.step](motors/nema17-34.step) |
-| <img src="motors/nema17-40.png" width="96" alt=""> | **Moteur NEMA 17 × 40 mm**<br>Moteur pas à pas NEMA 17, corps de 40 mm, arbre Ø 5 × 24 mm, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe. | [.vibecad](motors/nema17-40.vibecad) · [.step](motors/nema17-40.step) |
-| <img src="motors/nema17-48.png" width="96" alt=""> | **Moteur NEMA 17 × 48 mm**<br>Moteur pas à pas NEMA 17, corps de 48 mm, arbre Ø 5 × 24 mm, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe. | [.vibecad](motors/nema17-48.vibecad) · [.step](motors/nema17-48.step) |
+| <img src="motors/nema17-34.png" width="96" alt=""> | **Moteur NEMA 17 × 34 mm**<br>Moteur pas à pas NEMA 17, corps de 34 mm, arbre Ø 5 × 24 mm avec méplat, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe, connecteur JST-PH 6 broches. | [.vibecad](motors/nema17-34.vibecad) · [.step](motors/nema17-34.step) |
+| <img src="motors/nema17-40.png" width="96" alt=""> | **Moteur NEMA 17 × 40 mm**<br>Moteur pas à pas NEMA 17, corps de 40 mm, arbre Ø 5 × 24 mm avec méplat, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe, connecteur JST-PH 6 broches. | [.vibecad](motors/nema17-40.vibecad) · [.step](motors/nema17-40.step) |
+| <img src="motors/nema17-48.png" width="96" alt=""> | **Moteur NEMA 17 × 48 mm**<br>Moteur pas à pas NEMA 17, corps de 48 mm, arbre Ø 5 × 24 mm avec méplat, centreur Ø 22 mm, 4 taraudages M3 à 31 mm d'entraxe, connecteur JST-PH 6 broches. | [.vibecad](motors/nema17-48.vibecad) · [.step](motors/nema17-48.step) |
 
 ### Poulies (`pulleys/`)
 
@@ -89,13 +89,13 @@ Poulies crantées GT2 pour courroie de 6 mm, alésage 5 mm.
 
 ### Servomoteurs (`servos/`)
 
-Servomoteurs de modélisme : format standard (MG996R) et micro (SG90, MG90S), avec pattes de fixation et cannelure de sortie.
+Servomoteurs de modélisme : format standard (MG996R) et micro (SG90, MG90S), boîtier en trois parties, pattes de fixation, cannelure dentée et sortie du câble. Axe de sortie à l’origine.
 
 | | Composant | Fichiers |
 |---|---|---|
-| <img src="servos/mg90s.png" width="96" alt=""> | **Servomoteur MG90S**<br>Servomoteur MG90S : boîtier 22.5 × 12.2 × 22.7 mm, hauteur 29.9 mm avec la cannelure, pattes de 32.2 mm percées Ø 2.2 (entraxe 27.6 mm). Micro-servo, pignons métal, couple ≈ 0,22 N·m sous 4,8 V. Masse réelle ≈ 13.4 g (moteur et engrenages). | [.vibecad](servos/mg90s.vibecad) · [.step](servos/mg90s.step) |
-| <img src="servos/mg996r.png" width="96" alt=""> | **Servomoteur MG996R**<br>Servomoteur MG996R : boîtier 40.7 × 19.7 × 36.8 mm, hauteur 42.9 mm avec la cannelure, pattes de 54.5 mm percées Ø 4.6 (entraxe 49.5 mm). Format standard, pignons métal, couple ≈ 1 N·m sous 6 V. Masse réelle ≈ 55 g (moteur et engrenages). | [.vibecad](servos/mg996r.vibecad) · [.step](servos/mg996r.step) |
-| <img src="servos/sg90.png" width="96" alt=""> | **Servomoteur SG90**<br>Servomoteur SG90 : boîtier 22.5 × 12.2 × 22.7 mm, hauteur 29.9 mm avec la cannelure, pattes de 32.2 mm percées Ø 2.2 (entraxe 27.6 mm). Micro-servo, pignons plastique, couple ≈ 0,18 N·m sous 4,8 V. Masse réelle ≈ 9 g (moteur et engrenages). | [.vibecad](servos/sg90.vibecad) · [.step](servos/sg90.step) |
+| <img src="servos/mg90s.png" width="96" alt=""> | **Servomoteur MG90S**<br>Servomoteur MG90S : boîtier 22,5 × 12,2 × 22,7 mm, hauteur 29,9 mm avec la cannelure (21 dents), pattes de 32,2 mm percées Ø 2,2 (entraxe 27,6 mm). Micro-servo, pignons métal, couple ≈ 0,22 N·m sous 4,8 V. Masse réelle ≈ 13,4 g (moteur et engrenages). | [.vibecad](servos/mg90s.vibecad) · [.step](servos/mg90s.step) |
+| <img src="servos/mg996r.png" width="96" alt=""> | **Servomoteur MG996R**<br>Servomoteur MG996R : boîtier 40,7 × 19,7 × 36,8 mm, hauteur 42,9 mm avec la cannelure (25 dents), pattes de 54,5 mm percées Ø 4,6 (entraxe 49,5 mm). Format standard, pignons métal, couple ≈ 1 N·m sous 6 V. Masse réelle ≈ 55 g (moteur et engrenages). | [.vibecad](servos/mg996r.vibecad) · [.step](servos/mg996r.step) |
+| <img src="servos/sg90.png" width="96" alt=""> | **Servomoteur SG90**<br>Servomoteur SG90 : boîtier 22,5 × 12,2 × 22,7 mm, hauteur 29,9 mm avec la cannelure (21 dents), pattes de 32,2 mm percées Ø 2,2 (entraxe 27,6 mm). Micro-servo, pignons plastique, couple ≈ 0,18 N·m sous 4,8 V. Masse réelle ≈ 9 g (moteur et engrenages). | [.vibecad](servos/sg90.vibecad) · [.step](servos/sg90.step) |
 <!-- composants:fin -->
 
 ## Licence
