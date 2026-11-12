@@ -438,245 +438,6 @@
           {
             "id": "sk-3",
             "type": "sketch",
-            "name": "Esquisse des nervures",
-            "visible": false,
-            "params": {
-              "support": {
-                "kind": "plane",
-                "plane": "XZ",
-                "offset": -0.6
-              },
-              "entities": [
-                {
-                  "id": "p1",
-                  "type": "point",
-                  "x": -16.1,
-                  "y": 16.2
-                },
-                {
-                  "id": "p2",
-                  "type": "point",
-                  "x": -17.5,
-                  "y": 16.2
-                },
-                {
-                  "id": "p3",
-                  "type": "point",
-                  "x": -17.5,
-                  "y": 15.9
-                },
-                {
-                  "id": "p4",
-                  "type": "point",
-                  "x": -16.1,
-                  "y": 13.5
-                },
-                {
-                  "id": "l1",
-                  "type": "line",
-                  "a": "p1",
-                  "b": "p2"
-                },
-                {
-                  "id": "l2",
-                  "type": "line",
-                  "a": "p2",
-                  "b": "p3"
-                },
-                {
-                  "id": "l3",
-                  "type": "line",
-                  "a": "p3",
-                  "b": "p4"
-                },
-                {
-                  "id": "l4",
-                  "type": "line",
-                  "a": "p4",
-                  "b": "p1"
-                },
-                {
-                  "id": "p5",
-                  "type": "point",
-                  "x": 5.8,
-                  "y": 16.2
-                },
-                {
-                  "id": "p6",
-                  "type": "point",
-                  "x": 7.2,
-                  "y": 16.2
-                },
-                {
-                  "id": "p7",
-                  "type": "point",
-                  "x": 7.2,
-                  "y": 15.9
-                },
-                {
-                  "id": "p8",
-                  "type": "point",
-                  "x": 5.8,
-                  "y": 13.5
-                },
-                {
-                  "id": "l5",
-                  "type": "line",
-                  "a": "p5",
-                  "b": "p6"
-                },
-                {
-                  "id": "l6",
-                  "type": "line",
-                  "a": "p6",
-                  "b": "p7"
-                },
-                {
-                  "id": "l7",
-                  "type": "line",
-                  "a": "p7",
-                  "b": "p8"
-                },
-                {
-                  "id": "l8",
-                  "type": "line",
-                  "a": "p8",
-                  "b": "p5"
-                }
-              ],
-              "constraints": [
-                {
-                  "type": "distanceX",
-                  "a": "p1",
-                  "b": "origin",
-                  "value": 16.1,
-                  "id": "k1"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 16.2,
-                  "id": "k2"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "p2",
-                  "b": "origin",
-                  "value": 17.5,
-                  "id": "k3"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p2",
-                  "value": 16.2,
-                  "id": "k4"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "p3",
-                  "b": "origin",
-                  "value": 17.5,
-                  "id": "k5"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p3",
-                  "value": 15.9,
-                  "id": "k6"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "p4",
-                  "b": "origin",
-                  "value": 16.1,
-                  "id": "k7"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p4",
-                  "value": 13.5,
-                  "id": "k8"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "origin",
-                  "b": "p5",
-                  "value": 5.799999999999999,
-                  "id": "k9"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p5",
-                  "value": 16.2,
-                  "id": "k10"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "origin",
-                  "b": "p6",
-                  "value": 7.199999999999999,
-                  "id": "k11"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p6",
-                  "value": 16.2,
-                  "id": "k12"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "origin",
-                  "b": "p7",
-                  "value": 7.199999999999999,
-                  "id": "k13"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p7",
-                  "value": 15.9,
-                  "id": "k14"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "origin",
-                  "b": "p8",
-                  "value": 5.799999999999999,
-                  "id": "k15"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p8",
-                  "value": 13.5,
-                  "id": "k16"
-                }
-              ]
-            },
-            "dependsOn": []
-          },
-          {
-            "id": "ex-3",
-            "type": "extrude",
-            "name": "Nervures des pattes",
-            "params": {
-              "sketchId": "sk-3",
-              "distance": 1.2,
-              "direction": "default"
-            },
-            "dependsOn": [
-              "sk-3"
-            ]
-          },
-          {
-            "id": "sk-4",
-            "type": "sketch",
             "name": "Esquisse des trous de fixation",
             "visible": false,
             "params": {
@@ -761,18 +522,18 @@
             "type": "pocket",
             "name": "Trous de fixation",
             "params": {
-              "sketchId": "sk-4",
+              "sketchId": "sk-3",
               "extent": {
                 "kind": "throughAll"
               },
               "direction": "reversed"
             },
             "dependsOn": [
-              "sk-4"
+              "sk-3"
             ]
           },
           {
-            "id": "sk-5",
+            "id": "sk-4",
             "type": "sketch",
             "name": "Esquisse des fentes",
             "visible": false,
@@ -1078,18 +839,18 @@
             "type": "pocket",
             "name": "Fentes des pattes",
             "params": {
-              "sketchId": "sk-5",
+              "sketchId": "sk-4",
               "extent": {
                 "kind": "throughAll"
               },
               "direction": "reversed"
             },
             "dependsOn": [
-              "sk-5"
+              "sk-4"
             ]
           },
           {
-            "id": "sk-6",
+            "id": "sk-5",
             "type": "sketch",
             "name": "Esquisse du joint du fond",
             "visible": false,
@@ -1395,7 +1156,7 @@
             "type": "pocket",
             "name": "Joint du fond",
             "params": {
-              "sketchId": "sk-6",
+              "sketchId": "sk-5",
               "extent": {
                 "kind": "distance",
                 "distance": 0.6
@@ -1403,11 +1164,11 @@
               "direction": "default"
             },
             "dependsOn": [
-              "sk-6"
+              "sk-5"
             ]
           },
           {
-            "id": "sk-7",
+            "id": "sk-6",
             "type": "sketch",
             "name": "Esquisse du joint du couvercle",
             "visible": false,
@@ -1713,11 +1474,250 @@
             "type": "pocket",
             "name": "Joint du couvercle",
             "params": {
-              "sketchId": "sk-7",
+              "sketchId": "sk-6",
               "extent": {
                 "kind": "distance",
                 "distance": 0.6
               },
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-6"
+            ]
+          },
+          {
+            "id": "sk-7",
+            "type": "sketch",
+            "name": "Esquisse des nervures",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XZ",
+                "offset": -0.6
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": -16.1,
+                  "y": 18.1
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": -17.5,
+                  "y": 18.1
+                },
+                {
+                  "id": "p3",
+                  "type": "point",
+                  "x": -17.5,
+                  "y": 18.4
+                },
+                {
+                  "id": "p4",
+                  "type": "point",
+                  "x": -16.1,
+                  "y": 20.8
+                },
+                {
+                  "id": "l1",
+                  "type": "line",
+                  "a": "p1",
+                  "b": "p2"
+                },
+                {
+                  "id": "l2",
+                  "type": "line",
+                  "a": "p2",
+                  "b": "p3"
+                },
+                {
+                  "id": "l3",
+                  "type": "line",
+                  "a": "p3",
+                  "b": "p4"
+                },
+                {
+                  "id": "l4",
+                  "type": "line",
+                  "a": "p4",
+                  "b": "p1"
+                },
+                {
+                  "id": "p5",
+                  "type": "point",
+                  "x": 5.8,
+                  "y": 18.1
+                },
+                {
+                  "id": "p6",
+                  "type": "point",
+                  "x": 7.2,
+                  "y": 18.1
+                },
+                {
+                  "id": "p7",
+                  "type": "point",
+                  "x": 7.2,
+                  "y": 18.4
+                },
+                {
+                  "id": "p8",
+                  "type": "point",
+                  "x": 5.8,
+                  "y": 20.8
+                },
+                {
+                  "id": "l5",
+                  "type": "line",
+                  "a": "p5",
+                  "b": "p6"
+                },
+                {
+                  "id": "l6",
+                  "type": "line",
+                  "a": "p6",
+                  "b": "p7"
+                },
+                {
+                  "id": "l7",
+                  "type": "line",
+                  "a": "p7",
+                  "b": "p8"
+                },
+                {
+                  "id": "l8",
+                  "type": "line",
+                  "a": "p8",
+                  "b": "p5"
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "distanceX",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 16.1,
+                  "id": "k1"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p1",
+                  "value": 18.099999999999998,
+                  "id": "k2"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p2",
+                  "b": "origin",
+                  "value": 17.5,
+                  "id": "k3"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p2",
+                  "value": 18.099999999999998,
+                  "id": "k4"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p3",
+                  "b": "origin",
+                  "value": 17.5,
+                  "id": "k5"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p3",
+                  "value": 18.4,
+                  "id": "k6"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p4",
+                  "b": "origin",
+                  "value": 16.1,
+                  "id": "k7"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p4",
+                  "value": 20.799999999999997,
+                  "id": "k8"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "origin",
+                  "b": "p5",
+                  "value": 5.799999999999999,
+                  "id": "k9"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p5",
+                  "value": 18.099999999999998,
+                  "id": "k10"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "origin",
+                  "b": "p6",
+                  "value": 7.199999999999999,
+                  "id": "k11"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p6",
+                  "value": 18.099999999999998,
+                  "id": "k12"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "origin",
+                  "b": "p7",
+                  "value": 7.199999999999999,
+                  "id": "k13"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p7",
+                  "value": 18.4,
+                  "id": "k14"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "origin",
+                  "b": "p8",
+                  "value": 5.799999999999999,
+                  "id": "k15"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p8",
+                  "value": 20.799999999999997,
+                  "id": "k16"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "ex-3",
+            "type": "extrude",
+            "name": "Nervures des pattes",
+            "params": {
+              "sketchId": "sk-7",
+              "distance": 1.2,
               "direction": "default"
             },
             "dependsOn": [
