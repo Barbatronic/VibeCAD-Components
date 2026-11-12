@@ -2322,7 +2322,7 @@
               "support": {
                 "kind": "plane",
                 "plane": "YZ",
-                "offset": -16.4
+                "offset": 6.1
               },
               "entities": [
                 {
@@ -2483,7 +2483,7 @@
                 "kind": "distance",
                 "distance": 1
               },
-              "direction": "reversed"
+              "direction": "default"
             },
             "dependsOn": [
               "sk-14"
@@ -2498,7 +2498,7 @@
               "support": {
                 "kind": "plane",
                 "plane": "YZ",
-                "offset": -15.2
+                "offset": 4.8999999999999995
               },
               "entities": [
                 {
@@ -2656,7 +2656,7 @@
             "params": {
               "sketchId": "sk-15",
               "distance": 2.7,
-              "direction": "reversed"
+              "direction": "default"
             },
             "dependsOn": [
               "sk-15"
@@ -2671,7 +2671,7 @@
               "support": {
                 "kind": "plane",
                 "plane": "YZ",
-                "offset": -17.9
+                "offset": 7.6
               },
               "entities": [
                 {
@@ -2783,7 +2783,7 @@
             "params": {
               "sketchId": "sk-16",
               "distance": 12,
-              "direction": "reversed"
+              "direction": "default"
             },
             "dependsOn": [
               "sk-16"
