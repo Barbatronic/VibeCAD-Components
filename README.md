@@ -67,6 +67,14 @@ Accouplements rigides entre deux arbres, avec vis de pression.
 | <img src="couplers/rigid-5x5.png" width="96" alt=""> | **Accouplement rigide 5 / 5 mm**<br>Accouplement rigide Ø 19 × 25 mm entre un arbre de 5 mm et un arbre de 5 mm, deux vis de pression M3. | [.vibecad](couplers/rigid-5x5.vibecad) · [.step](couplers/rigid-5x5.step) |
 | <img src="couplers/rigid-5x8.png" width="96" alt=""> | **Accouplement rigide 5 / 8 mm**<br>Accouplement rigide Ø 19 × 25 mm entre un arbre de 5 mm et un arbre de 8 mm, deux vis de pression M3. | [.vibecad](couplers/rigid-5x8.vibecad) · [.step](couplers/rigid-5x8.step) |
 
+### Palonniers (`horns/`)
+
+Palonniers métalliques pour servomoteurs : cannelure dentée et trous taraudés. Axe de la cannelure sur Z, face de la cannelure en Z = 0.
+
+| | Composant | Fichiers |
+|---|---|---|
+| <img src="horns/disc-25t-20.png" width="96" alt=""> | **Palonnier disque Ø 20 mm 25T**<br>Palonnier disque en aluminium pour servomoteur à cannelure 25 dents (MG996R, MG995, DS3218) : disque Ø 20 × 2 mm, moyeu Ø 9 mm, hauteur 4,5 mm, cannelure Ø 5,5 mm, 4 taraudages M3 à 14 mm d'entraxe, vis M3 au centre. Repère : axe sur Z, face de la cannelure en Z = 0. | [.vibecad](horns/disc-25t-20.vibecad) · [.step](horns/disc-25t-20.step) |
+
 ### Moteurs (`motors/`)
 
 Moteurs pas à pas NEMA 17 : flasques et paquet de tôles, centreur, arbre à méplat, taraudages de fixation, connecteur JST-PH.
