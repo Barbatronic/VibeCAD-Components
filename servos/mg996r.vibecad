@@ -3016,377 +3016,6 @@
           {
             "id": "sk-16",
             "type": "sketch",
-            "name": "Esquisse de l’étiquette",
-            "visible": false,
-            "params": {
-              "support": {
-                "kind": "plane",
-                "plane": "XY",
-                "offset": 10.8
-              },
-              "entities": [
-                {
-                  "id": "p1",
-                  "type": "point",
-                  "x": -22.4,
-                  "y": -7.1
-                },
-                {
-                  "id": "p2",
-                  "type": "point",
-                  "x": -13.8,
-                  "y": -7.1
-                },
-                {
-                  "id": "l1",
-                  "type": "line",
-                  "a": "p1",
-                  "b": "p2"
-                },
-                {
-                  "id": "p3",
-                  "type": "point",
-                  "x": -13.8,
-                  "y": -7.1
-                },
-                {
-                  "id": "p4",
-                  "type": "point",
-                  "x": -13.8,
-                  "y": 7.1
-                },
-                {
-                  "id": "l2",
-                  "type": "line",
-                  "a": "p3",
-                  "b": "p4"
-                },
-                {
-                  "id": "p5",
-                  "type": "point",
-                  "x": -13.8,
-                  "y": 7.1
-                },
-                {
-                  "id": "p6",
-                  "type": "point",
-                  "x": -22.4,
-                  "y": 7.1
-                },
-                {
-                  "id": "l3",
-                  "type": "line",
-                  "a": "p5",
-                  "b": "p6"
-                },
-                {
-                  "id": "p7",
-                  "type": "point",
-                  "x": -22.4,
-                  "y": 7.1
-                },
-                {
-                  "id": "p8",
-                  "type": "point",
-                  "x": -22.4,
-                  "y": -7.1
-                },
-                {
-                  "id": "l4",
-                  "type": "line",
-                  "a": "p7",
-                  "b": "p8"
-                },
-                {
-                  "id": "p9",
-                  "type": "point",
-                  "x": -22.1,
-                  "y": -6.8
-                },
-                {
-                  "id": "p10",
-                  "type": "point",
-                  "x": -14.1,
-                  "y": -6.8
-                },
-                {
-                  "id": "l5",
-                  "type": "line",
-                  "a": "p9",
-                  "b": "p10"
-                },
-                {
-                  "id": "p11",
-                  "type": "point",
-                  "x": -14.1,
-                  "y": -6.8
-                },
-                {
-                  "id": "p12",
-                  "type": "point",
-                  "x": -14.1,
-                  "y": 6.8
-                },
-                {
-                  "id": "l6",
-                  "type": "line",
-                  "a": "p11",
-                  "b": "p12"
-                },
-                {
-                  "id": "p13",
-                  "type": "point",
-                  "x": -14.1,
-                  "y": 6.8
-                },
-                {
-                  "id": "p14",
-                  "type": "point",
-                  "x": -22.1,
-                  "y": 6.8
-                },
-                {
-                  "id": "l7",
-                  "type": "line",
-                  "a": "p13",
-                  "b": "p14"
-                },
-                {
-                  "id": "p15",
-                  "type": "point",
-                  "x": -22.1,
-                  "y": 6.8
-                },
-                {
-                  "id": "p16",
-                  "type": "point",
-                  "x": -22.1,
-                  "y": -6.8
-                },
-                {
-                  "id": "l8",
-                  "type": "line",
-                  "a": "p15",
-                  "b": "p16"
-                },
-                {
-                  "id": "p17",
-                  "type": "point",
-                  "x": -20.1,
-                  "y": 6.3
-                },
-                {
-                  "id": "txt1",
-                  "type": "text",
-                  "anchor": "p17",
-                  "text": "MG996R",
-                  "height": 2.226665054998187,
-                  "angle": -90
-                },
-                {
-                  "id": "p18",
-                  "type": "point",
-                  "x": -21.55,
-                  "y": 6.3
-                },
-                {
-                  "id": "txt2",
-                  "type": "text",
-                  "anchor": "p18",
-                  "text": "DIGI HI TORQUE",
-                  "height": 1.1401374017453734,
-                  "angle": -90
-                }
-              ],
-              "constraints": [
-                {
-                  "type": "coincident",
-                  "a": "p2",
-                  "b": "p3",
-                  "id": "k1"
-                },
-                {
-                  "type": "coincident",
-                  "a": "p4",
-                  "b": "p5",
-                  "id": "k2"
-                },
-                {
-                  "type": "coincident",
-                  "a": "p6",
-                  "b": "p7",
-                  "id": "k3"
-                },
-                {
-                  "type": "coincident",
-                  "a": "p8",
-                  "b": "p1",
-                  "id": "k4"
-                },
-                {
-                  "type": "horizontal",
-                  "line": "l1",
-                  "id": "k5"
-                },
-                {
-                  "type": "horizontal",
-                  "line": "l3",
-                  "id": "k6"
-                },
-                {
-                  "type": "vertical",
-                  "line": "l2",
-                  "id": "k7"
-                },
-                {
-                  "type": "vertical",
-                  "line": "l4",
-                  "id": "k8"
-                },
-                {
-                  "type": "length",
-                  "line": "l1",
-                  "value": 8.599999999999998,
-                  "id": "k9"
-                },
-                {
-                  "type": "length",
-                  "line": "l4",
-                  "value": 14.2,
-                  "id": "k10"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "p1",
-                  "b": "origin",
-                  "value": 22.4,
-                  "id": "k11"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "p1",
-                  "b": "origin",
-                  "value": 7.1,
-                  "id": "k12"
-                },
-                {
-                  "type": "coincident",
-                  "a": "p10",
-                  "b": "p11",
-                  "id": "k13"
-                },
-                {
-                  "type": "coincident",
-                  "a": "p12",
-                  "b": "p13",
-                  "id": "k14"
-                },
-                {
-                  "type": "coincident",
-                  "a": "p14",
-                  "b": "p15",
-                  "id": "k15"
-                },
-                {
-                  "type": "coincident",
-                  "a": "p16",
-                  "b": "p9",
-                  "id": "k16"
-                },
-                {
-                  "type": "horizontal",
-                  "line": "l5",
-                  "id": "k17"
-                },
-                {
-                  "type": "horizontal",
-                  "line": "l7",
-                  "id": "k18"
-                },
-                {
-                  "type": "vertical",
-                  "line": "l6",
-                  "id": "k19"
-                },
-                {
-                  "type": "vertical",
-                  "line": "l8",
-                  "id": "k20"
-                },
-                {
-                  "type": "length",
-                  "line": "l5",
-                  "value": 8.000000000000002,
-                  "id": "k21"
-                },
-                {
-                  "type": "length",
-                  "line": "l8",
-                  "value": 13.6,
-                  "id": "k22"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "p9",
-                  "b": "origin",
-                  "value": 22.1,
-                  "id": "k23"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "p9",
-                  "b": "origin",
-                  "value": 6.8,
-                  "id": "k24"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "p17",
-                  "b": "origin",
-                  "value": 20.1,
-                  "id": "k25"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p17",
-                  "value": 6.3,
-                  "id": "k26"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "p18",
-                  "b": "origin",
-                  "value": 21.55,
-                  "id": "k27"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p18",
-                  "value": 6.3,
-                  "id": "k28"
-                }
-              ]
-            },
-            "dependsOn": []
-          },
-          {
-            "id": "ex-11",
-            "type": "extrude",
-            "name": "Étiquette",
-            "params": {
-              "sketchId": "sk-16",
-              "distance": 0.15,
-              "direction": "default"
-            },
-            "dependsOn": [
-              "sk-16"
-            ]
-          },
-          {
-            "id": "sk-17",
-            "type": "sketch",
             "name": "Esquisse de la bague",
             "visible": false,
             "params": {
@@ -3427,20 +3056,20 @@
             "dependsOn": []
           },
           {
-            "id": "ex-12",
+            "id": "ex-11",
             "type": "extrude",
             "name": "Bague",
             "params": {
-              "sketchId": "sk-17",
+              "sketchId": "sk-16",
               "distance": 1.5,
               "direction": "default"
             },
             "dependsOn": [
-              "sk-17"
+              "sk-16"
             ]
           },
           {
-            "id": "sk-18",
+            "id": "sk-17",
             "type": "sketch",
             "name": "Esquisse du collet",
             "visible": false,
@@ -3482,20 +3111,20 @@
             "dependsOn": []
           },
           {
-            "id": "ex-13",
+            "id": "ex-12",
             "type": "extrude",
             "name": "Collet",
             "params": {
-              "sketchId": "sk-18",
+              "sketchId": "sk-17",
               "distance": 0.5,
               "direction": "default"
             },
             "dependsOn": [
-              "sk-18"
+              "sk-17"
             ]
           },
           {
-            "id": "sk-19",
+            "id": "sk-18",
             "type": "sketch",
             "name": "Esquisse de la cannelure",
             "visible": false,
@@ -3537,20 +3166,20 @@
             "dependsOn": []
           },
           {
-            "id": "ex-14",
+            "id": "ex-13",
             "type": "extrude",
             "name": "Cannelure",
             "params": {
-              "sketchId": "sk-19",
+              "sketchId": "sk-18",
               "distance": 3.5,
               "direction": "default"
             },
             "dependsOn": [
-              "sk-19"
+              "sk-18"
             ]
           },
           {
-            "id": "sk-20",
+            "id": "sk-19",
             "type": "sketch",
             "name": "Esquisse d’un creux de cannelure",
             "visible": false,
@@ -3650,7 +3279,7 @@
             "type": "pocket",
             "name": "Creux de cannelure",
             "params": {
-              "sketchId": "sk-20",
+              "sketchId": "sk-19",
               "extent": {
                 "kind": "distance",
                 "distance": 3.5
@@ -3658,7 +3287,7 @@
               "direction": "default"
             },
             "dependsOn": [
-              "sk-20"
+              "sk-19"
             ]
           },
           {
@@ -3682,7 +3311,7 @@
             ]
           },
           {
-            "id": "sk-21",
+            "id": "sk-20",
             "type": "sketch",
             "name": "Esquisse du taraudage",
             "visible": false,
@@ -3728,7 +3357,7 @@
             "type": "pocket",
             "name": "Taraudage M3",
             "params": {
-              "sketchId": "sk-21",
+              "sketchId": "sk-20",
               "extent": {
                 "kind": "distance",
                 "distance": 8
@@ -3736,11 +3365,11 @@
               "direction": "default"
             },
             "dependsOn": [
-              "sk-21"
+              "sk-20"
             ]
           },
           {
-            "id": "sk-22",
+            "id": "sk-21",
             "type": "sketch",
             "name": "Esquisse des lamages",
             "visible": false,
@@ -3890,7 +3519,7 @@
             "type": "pocket",
             "name": "Lamages",
             "params": {
-              "sketchId": "sk-22",
+              "sketchId": "sk-21",
               "extent": {
                 "kind": "distance",
                 "distance": 1
@@ -3898,11 +3527,11 @@
               "direction": "reversed"
             },
             "dependsOn": [
-              "sk-22"
+              "sk-21"
             ]
           },
           {
-            "id": "sk-23",
+            "id": "sk-22",
             "type": "sketch",
             "name": "Esquisse des têtes de vis",
             "visible": false,
@@ -4048,16 +3677,16 @@
             "dependsOn": []
           },
           {
-            "id": "ex-15",
+            "id": "ex-14",
             "type": "extrude",
             "name": "Têtes de vis",
             "params": {
-              "sketchId": "sk-23",
+              "sketchId": "sk-22",
               "distance": 1.36,
               "direction": "reversed"
             },
             "dependsOn": [
-              "sk-23"
+              "sk-22"
             ]
           },
           {
@@ -4069,12 +3698,12 @@
                 {
                   "faces": [
                     {
-                      "featureId": "ex-15",
+                      "featureId": "ex-14",
                       "role": "side",
                       "entityId": "c1"
                     },
                     {
-                      "featureId": "ex-15",
+                      "featureId": "ex-14",
                       "role": "start"
                     }
                   ]
@@ -4082,12 +3711,12 @@
                 {
                   "faces": [
                     {
-                      "featureId": "ex-15",
+                      "featureId": "ex-14",
                       "role": "side",
                       "entityId": "c2"
                     },
                     {
-                      "featureId": "ex-15",
+                      "featureId": "ex-14",
                       "role": "start"
                     }
                   ]
@@ -4095,12 +3724,12 @@
                 {
                   "faces": [
                     {
-                      "featureId": "ex-15",
+                      "featureId": "ex-14",
                       "role": "side",
                       "entityId": "c3"
                     },
                     {
-                      "featureId": "ex-15",
+                      "featureId": "ex-14",
                       "role": "start"
                     }
                   ]
@@ -4108,12 +3737,12 @@
                 {
                   "faces": [
                     {
-                      "featureId": "ex-15",
+                      "featureId": "ex-14",
                       "role": "side",
                       "entityId": "c4"
                     },
                     {
-                      "featureId": "ex-15",
+                      "featureId": "ex-14",
                       "role": "start"
                     }
                   ]
@@ -4122,11 +3751,11 @@
               "radius": 0.5
             },
             "dependsOn": [
-              "ex-15"
+              "ex-14"
             ]
           },
           {
-            "id": "sk-24",
+            "id": "sk-23",
             "type": "sketch",
             "name": "Esquisse des empreintes (branches longues)",
             "visible": false,
@@ -4716,7 +4345,7 @@
             "type": "pocket",
             "name": "Empreintes (branches longues)",
             "params": {
-              "sketchId": "sk-24",
+              "sketchId": "sk-23",
               "extent": {
                 "kind": "distance",
                 "distance": 0.6
@@ -4724,11 +4353,11 @@
               "direction": "reversed"
             },
             "dependsOn": [
-              "sk-24"
+              "sk-23"
             ]
           },
           {
-            "id": "sk-25",
+            "id": "sk-24",
             "type": "sketch",
             "name": "Esquisse des empreintes (branches courtes)",
             "visible": false,
@@ -5318,7 +4947,7 @@
             "type": "pocket",
             "name": "Empreintes (branches courtes)",
             "params": {
-              "sketchId": "sk-25",
+              "sketchId": "sk-24",
               "extent": {
                 "kind": "distance",
                 "distance": 0.6
@@ -5326,11 +4955,11 @@
               "direction": "reversed"
             },
             "dependsOn": [
-              "sk-25"
+              "sk-24"
             ]
           },
           {
-            "id": "sk-26",
+            "id": "sk-25",
             "type": "sketch",
             "name": "Esquisse de la collerette du passe-fil",
             "visible": false,
@@ -5490,20 +5119,20 @@
             "dependsOn": []
           },
           {
-            "id": "ex-16",
+            "id": "ex-15",
             "type": "extrude",
             "name": "Collerette du passe-fil",
             "params": {
-              "sketchId": "sk-26",
+              "sketchId": "sk-25",
               "distance": 0.8,
               "direction": "default"
             },
             "dependsOn": [
-              "sk-26"
+              "sk-25"
             ]
           },
           {
-            "id": "sk-27",
+            "id": "sk-26",
             "type": "sketch",
             "name": "Esquisse du pied du passe-fil",
             "visible": false,
@@ -5729,7 +5358,7 @@
             "dependsOn": []
           },
           {
-            "id": "sk-28",
+            "id": "sk-27",
             "type": "sketch",
             "name": "Esquisse du bout du passe-fil",
             "visible": false,
@@ -5960,19 +5589,19 @@
             "name": "Passe-fil",
             "params": {
               "sketchIds": [
-                "sk-27",
-                "sk-28"
+                "sk-26",
+                "sk-27"
               ],
               "ruled": false,
               "operation": "add"
             },
             "dependsOn": [
-              "sk-27",
-              "sk-28"
+              "sk-26",
+              "sk-27"
             ]
           },
           {
-            "id": "sk-29",
+            "id": "sk-28",
             "type": "sketch",
             "name": "Esquisse des fils",
             "visible": false,
@@ -6086,12 +5715,383 @@
             "dependsOn": []
           },
           {
-            "id": "ex-17",
+            "id": "ex-16",
             "type": "extrude",
             "name": "Fils",
             "params": {
-              "sketchId": "sk-29",
+              "sketchId": "sk-28",
               "distance": 7.1,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-28"
+            ]
+          },
+          {
+            "id": "sk-29",
+            "type": "sketch",
+            "name": "Esquisse de l’étiquette",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": 10.8
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": -22.4,
+                  "y": -7.1
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": -13.8,
+                  "y": -7.1
+                },
+                {
+                  "id": "l1",
+                  "type": "line",
+                  "a": "p1",
+                  "b": "p2"
+                },
+                {
+                  "id": "p3",
+                  "type": "point",
+                  "x": -13.8,
+                  "y": -7.1
+                },
+                {
+                  "id": "p4",
+                  "type": "point",
+                  "x": -13.8,
+                  "y": 7.1
+                },
+                {
+                  "id": "l2",
+                  "type": "line",
+                  "a": "p3",
+                  "b": "p4"
+                },
+                {
+                  "id": "p5",
+                  "type": "point",
+                  "x": -13.8,
+                  "y": 7.1
+                },
+                {
+                  "id": "p6",
+                  "type": "point",
+                  "x": -22.4,
+                  "y": 7.1
+                },
+                {
+                  "id": "l3",
+                  "type": "line",
+                  "a": "p5",
+                  "b": "p6"
+                },
+                {
+                  "id": "p7",
+                  "type": "point",
+                  "x": -22.4,
+                  "y": 7.1
+                },
+                {
+                  "id": "p8",
+                  "type": "point",
+                  "x": -22.4,
+                  "y": -7.1
+                },
+                {
+                  "id": "l4",
+                  "type": "line",
+                  "a": "p7",
+                  "b": "p8"
+                },
+                {
+                  "id": "p9",
+                  "type": "point",
+                  "x": -22.1,
+                  "y": -6.8
+                },
+                {
+                  "id": "p10",
+                  "type": "point",
+                  "x": -14.1,
+                  "y": -6.8
+                },
+                {
+                  "id": "l5",
+                  "type": "line",
+                  "a": "p9",
+                  "b": "p10"
+                },
+                {
+                  "id": "p11",
+                  "type": "point",
+                  "x": -14.1,
+                  "y": -6.8
+                },
+                {
+                  "id": "p12",
+                  "type": "point",
+                  "x": -14.1,
+                  "y": 6.8
+                },
+                {
+                  "id": "l6",
+                  "type": "line",
+                  "a": "p11",
+                  "b": "p12"
+                },
+                {
+                  "id": "p13",
+                  "type": "point",
+                  "x": -14.1,
+                  "y": 6.8
+                },
+                {
+                  "id": "p14",
+                  "type": "point",
+                  "x": -22.1,
+                  "y": 6.8
+                },
+                {
+                  "id": "l7",
+                  "type": "line",
+                  "a": "p13",
+                  "b": "p14"
+                },
+                {
+                  "id": "p15",
+                  "type": "point",
+                  "x": -22.1,
+                  "y": 6.8
+                },
+                {
+                  "id": "p16",
+                  "type": "point",
+                  "x": -22.1,
+                  "y": -6.8
+                },
+                {
+                  "id": "l8",
+                  "type": "line",
+                  "a": "p15",
+                  "b": "p16"
+                },
+                {
+                  "id": "p17",
+                  "type": "point",
+                  "x": -20.1,
+                  "y": 6.3
+                },
+                {
+                  "id": "txt1",
+                  "type": "text",
+                  "anchor": "p17",
+                  "text": "MG996R",
+                  "height": 2.226665054998187,
+                  "angle": -90
+                },
+                {
+                  "id": "p18",
+                  "type": "point",
+                  "x": -21.55,
+                  "y": 6.3
+                },
+                {
+                  "id": "txt2",
+                  "type": "text",
+                  "anchor": "p18",
+                  "text": "DIGI HI TORQUE",
+                  "height": 1.1401374017453734,
+                  "angle": -90
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "coincident",
+                  "a": "p2",
+                  "b": "p3",
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p4",
+                  "b": "p5",
+                  "id": "k2"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p6",
+                  "b": "p7",
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p8",
+                  "b": "p1",
+                  "id": "k4"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l1",
+                  "id": "k5"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l3",
+                  "id": "k6"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l2",
+                  "id": "k7"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l4",
+                  "id": "k8"
+                },
+                {
+                  "type": "length",
+                  "line": "l1",
+                  "value": 8.599999999999998,
+                  "id": "k9"
+                },
+                {
+                  "type": "length",
+                  "line": "l4",
+                  "value": 14.2,
+                  "id": "k10"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 22.4,
+                  "id": "k11"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 7.1,
+                  "id": "k12"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p10",
+                  "b": "p11",
+                  "id": "k13"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p12",
+                  "b": "p13",
+                  "id": "k14"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p14",
+                  "b": "p15",
+                  "id": "k15"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p16",
+                  "b": "p9",
+                  "id": "k16"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l5",
+                  "id": "k17"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l7",
+                  "id": "k18"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l6",
+                  "id": "k19"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l8",
+                  "id": "k20"
+                },
+                {
+                  "type": "length",
+                  "line": "l5",
+                  "value": 8.000000000000002,
+                  "id": "k21"
+                },
+                {
+                  "type": "length",
+                  "line": "l8",
+                  "value": 13.6,
+                  "id": "k22"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p9",
+                  "b": "origin",
+                  "value": 22.1,
+                  "id": "k23"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "p9",
+                  "b": "origin",
+                  "value": 6.8,
+                  "id": "k24"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p17",
+                  "b": "origin",
+                  "value": 20.1,
+                  "id": "k25"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p17",
+                  "value": 6.3,
+                  "id": "k26"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p18",
+                  "b": "origin",
+                  "value": 21.55,
+                  "id": "k27"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p18",
+                  "value": 6.3,
+                  "id": "k28"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "ex-17",
+            "type": "extrude",
+            "name": "Étiquette",
+            "params": {
+              "sketchId": "sk-29",
+              "distance": 0.15,
               "direction": "default"
             },
             "dependsOn": [
