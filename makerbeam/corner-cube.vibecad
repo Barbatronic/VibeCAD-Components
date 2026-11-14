@@ -1,0 +1,615 @@
+{
+  "format": "vibecad",
+  "schemaVersion": 1,
+  "generator": {
+    "name": "VibeCAD",
+    "version": "0.1.0"
+  },
+  "savedAt": "2026-10-25T00:00:00.000Z",
+  "document": {
+    "id": "doc-1",
+    "name": "Cube d’angle MakerBeam",
+    "units": "mm",
+    "createdAt": "2026-10-25T00:00:00.000Z",
+    "modifiedAt": "2026-10-25T00:00:00.000Z",
+    "parts": [
+      {
+        "id": "part-1",
+        "name": "Cube d’angle MakerBeam",
+        "color": "#2b2d31",
+        "visible": true,
+        "material": "aluminium",
+        "features": [
+          {
+            "id": "sk-1",
+            "type": "sketch",
+            "name": "Esquisse du cube",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": -5
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": -5,
+                  "y": -5
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": 5,
+                  "y": -5
+                },
+                {
+                  "id": "l1",
+                  "type": "line",
+                  "a": "p1",
+                  "b": "p2"
+                },
+                {
+                  "id": "p3",
+                  "type": "point",
+                  "x": 5,
+                  "y": -5
+                },
+                {
+                  "id": "p4",
+                  "type": "point",
+                  "x": 5,
+                  "y": 5
+                },
+                {
+                  "id": "l2",
+                  "type": "line",
+                  "a": "p3",
+                  "b": "p4"
+                },
+                {
+                  "id": "p5",
+                  "type": "point",
+                  "x": 5,
+                  "y": 5
+                },
+                {
+                  "id": "p6",
+                  "type": "point",
+                  "x": -5,
+                  "y": 5
+                },
+                {
+                  "id": "l3",
+                  "type": "line",
+                  "a": "p5",
+                  "b": "p6"
+                },
+                {
+                  "id": "p7",
+                  "type": "point",
+                  "x": -5,
+                  "y": 5
+                },
+                {
+                  "id": "p8",
+                  "type": "point",
+                  "x": -5,
+                  "y": -5
+                },
+                {
+                  "id": "l4",
+                  "type": "line",
+                  "a": "p7",
+                  "b": "p8"
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "coincident",
+                  "a": "p2",
+                  "b": "p3",
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p4",
+                  "b": "p5",
+                  "id": "k2"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p6",
+                  "b": "p7",
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p8",
+                  "b": "p1",
+                  "id": "k4"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l1",
+                  "id": "k5"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l3",
+                  "id": "k6"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l2",
+                  "id": "k7"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l4",
+                  "id": "k8"
+                },
+                {
+                  "type": "length",
+                  "line": "l1",
+                  "value": 10,
+                  "id": "k9"
+                },
+                {
+                  "type": "length",
+                  "line": "l4",
+                  "value": 10,
+                  "id": "k10"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 5,
+                  "id": "k11"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 5,
+                  "id": "k12"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "ex-1",
+            "type": "extrude",
+            "name": "Cube",
+            "params": {
+              "sketchId": "sk-1",
+              "distance": 10,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-1"
+            ]
+          },
+          {
+            "id": "ch-1",
+            "type": "chamfer",
+            "name": "Arêtes cassées",
+            "params": {
+              "edges": [
+                {
+                  "faces": [
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l1"
+                    },
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l2"
+                    }
+                  ]
+                },
+                {
+                  "faces": [
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l2"
+                    },
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l3"
+                    }
+                  ]
+                },
+                {
+                  "faces": [
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l3"
+                    },
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l4"
+                    }
+                  ]
+                },
+                {
+                  "faces": [
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l4"
+                    },
+                    {
+                      "featureId": "ex-1",
+                      "role": "side",
+                      "entityId": "l1"
+                    }
+                  ]
+                }
+              ],
+              "distance": 0.3
+            },
+            "dependsOn": [
+              "ex-1"
+            ]
+          },
+          {
+            "id": "sk-2",
+            "type": "sketch",
+            "name": "Esquisse du trou selon z",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": 0
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 1.5
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 3,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "po-1",
+            "type": "pocket",
+            "name": "Trou selon Z",
+            "params": {
+              "sketchId": "sk-2",
+              "extent": {
+                "kind": "throughAll"
+              },
+              "direction": "symmetric"
+            },
+            "dependsOn": [
+              "sk-2"
+            ]
+          },
+          {
+            "id": "sk-3",
+            "type": "sketch",
+            "name": "Esquisse du trou selon y",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XZ",
+                "offset": 0
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 1.5
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 3,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "po-2",
+            "type": "pocket",
+            "name": "Trou selon Y",
+            "params": {
+              "sketchId": "sk-3",
+              "extent": {
+                "kind": "throughAll"
+              },
+              "direction": "symmetric"
+            },
+            "dependsOn": [
+              "sk-3"
+            ]
+          },
+          {
+            "id": "sk-4",
+            "type": "sketch",
+            "name": "Esquisse du trou selon x",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "YZ",
+                "offset": 0
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 1.5
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 3,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "po-3",
+            "type": "pocket",
+            "name": "Trou selon X",
+            "params": {
+              "sketchId": "sk-4",
+              "extent": {
+                "kind": "throughAll"
+              },
+              "direction": "symmetric"
+            },
+            "dependsOn": [
+              "sk-4"
+            ]
+          },
+          {
+            "id": "sk-5",
+            "type": "sketch",
+            "name": "Esquisse du lamage selon z",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": 5
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 3
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 6,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "po-4",
+            "type": "pocket",
+            "name": "Lamage selon Z",
+            "params": {
+              "sketchId": "sk-5",
+              "extent": {
+                "kind": "distance",
+                "distance": 8
+              },
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-5"
+            ]
+          },
+          {
+            "id": "sk-6",
+            "type": "sketch",
+            "name": "Esquisse du lamage selon y",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XZ",
+                "offset": -5
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 3
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 6,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "po-5",
+            "type": "pocket",
+            "name": "Lamage selon Y",
+            "params": {
+              "sketchId": "sk-6",
+              "extent": {
+                "kind": "distance",
+                "distance": 8
+              },
+              "direction": "reversed"
+            },
+            "dependsOn": [
+              "sk-6"
+            ]
+          },
+          {
+            "id": "sk-7",
+            "type": "sketch",
+            "name": "Esquisse du lamage selon x",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "YZ",
+                "offset": 5
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 3
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 6,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "po-6",
+            "type": "pocket",
+            "name": "Lamage selon X",
+            "params": {
+              "sketchId": "sk-7",
+              "extent": {
+                "kind": "distance",
+                "distance": 8
+              },
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-7"
+            ]
+          }
+        ]
+      }
+    ],
+    "resources": {}
+  }
+}

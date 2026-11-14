@@ -265,6 +265,45 @@
       ]
     },
     {
+      "id": "makerbeam",
+      "name": "MakerBeam",
+      "description": "Accessoires pour profilés MakerBeam 10 × 10 (le profilé lui-même : étape « Profilé », système MakerBeam).",
+      "components": [
+        {
+          "id": "corner-cube",
+          "name": "Cube d’angle MakerBeam",
+          "description": "Cube d'angle MakerBeam 10 × 10 × 10 mm, aluminium anodisé noir : trou Ø 3 traversant sur chaque axe, lamages Ø 6 pour les têtes de vis M3 sur trois faces. Repère : cube centré sur l'origine, faces d'appui des profilés en X, Y et Z = −5.",
+          "tags": [
+            "MakerBeam",
+            "cube",
+            "angle",
+            "équerre",
+            "profilé",
+            "10x10",
+            "M3"
+          ],
+          "dimensions": {
+            "A": 10,
+            "trou": 3,
+            "lamage": 6
+          },
+          "material": "aluminium",
+          "volume": 582.67,
+          "mass": 1.57,
+          "size": [
+            10,
+            10,
+            10
+          ],
+          "files": {
+            "vibecad": "makerbeam/corner-cube.vibecad",
+            "step": "makerbeam/corner-cube.step",
+            "preview": "makerbeam/corner-cube.png"
+          }
+        }
+      ]
+    },
+    {
       "id": "motors",
       "name": "Moteurs",
       "description": "Moteurs pas à pas NEMA 17 : flasques et paquet de tôles, centreur, arbre à méplat, taraudages de fixation, connecteur JST-PH.",

@@ -75,6 +75,14 @@ Palonniers métalliques pour servomoteurs : cannelure dentée et trous taraudés
 |---|---|---|
 | <img src="horns/disc-25t-20.png" width="96" alt=""> | **Palonnier disque Ø 20 mm 25T**<br>Palonnier disque en aluminium pour servomoteur à cannelure 25 dents (MG996R, MG995, DS3218) : disque Ø 20 × 2 mm, moyeu Ø 9 mm, hauteur 4,5 mm, cannelure Ø 5,5 mm, 4 taraudages M3 à 14 mm d'entraxe, vis M3 au centre. Repère : axe sur Z, face de la cannelure en Z = 0. | [.vibecad](horns/disc-25t-20.vibecad) · [.step](horns/disc-25t-20.step) |
 
+### MakerBeam (`makerbeam/`)
+
+Accessoires pour profilés MakerBeam 10 × 10 (le profilé lui-même : étape « Profilé », système MakerBeam).
+
+| | Composant | Fichiers |
+|---|---|---|
+| <img src="makerbeam/corner-cube.png" width="96" alt=""> | **Cube d’angle MakerBeam**<br>Cube d'angle MakerBeam 10 × 10 × 10 mm, aluminium anodisé noir : trou Ø 3 traversant sur chaque axe, lamages Ø 6 pour les têtes de vis M3 sur trois faces. Repère : cube centré sur l'origine, faces d'appui des profilés en X, Y et Z = −5. | [.vibecad](makerbeam/corner-cube.vibecad) · [.step](makerbeam/corner-cube.step) |
+
 ### Moteurs (`motors/`)
 
 Moteurs pas à pas NEMA 17 : flasques et paquet de tôles, centreur, arbre à méplat, taraudages de fixation, connecteur JST-PH.

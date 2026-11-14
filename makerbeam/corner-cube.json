@@ -1,0 +1,32 @@
+{
+  "id": "corner-cube",
+  "name": "Cube d’angle MakerBeam",
+  "description": "Cube d'angle MakerBeam 10 × 10 × 10 mm, aluminium anodisé noir : trou Ø 3 traversant sur chaque axe, lamages Ø 6 pour les têtes de vis M3 sur trois faces. Repère : cube centré sur l'origine, faces d'appui des profilés en X, Y et Z = −5.",
+  "tags": [
+    "MakerBeam",
+    "cube",
+    "angle",
+    "équerre",
+    "profilé",
+    "10x10",
+    "M3"
+  ],
+  "dimensions": {
+    "A": 10,
+    "trou": 3,
+    "lamage": 6
+  },
+  "material": "aluminium",
+  "volume": 582.67,
+  "mass": 1.57,
+  "size": [
+    10,
+    10,
+    10
+  ],
+  "files": {
+    "vibecad": "corner-cube.vibecad",
+    "step": "corner-cube.step",
+    "preview": "corner-cube.png"
+  }
+}
