@@ -1,0 +1,40 @@
+{
+  "id": "arm-25t-m3",
+  "name": "Palonnier bras 25T M3",
+  "description": "Palonnier à bras en aluminium pour servomoteur 25T : longueur 35,75 mm, largeur 15 mm, hauteur 6 mm, bras de 4 mm d’épaisseur. Alésage de montage Ø 5,62 mm, perçages Ø 3 mm sur le bras à 9, 20,4 et 24,4 mm de l’axe. Repère : axe de montage sur Z, face inférieure en Z = 0.",
+  "tags": [
+    "palonnier",
+    "servo",
+    "servomoteur",
+    "25T",
+    "bras",
+    "M3"
+  ],
+  "dimensions": {
+    "L": 35.75,
+    "l": 15,
+    "H": 6,
+    "e": 4,
+    "alesage": 5.62,
+    "percage": 3,
+    "positionsPercages": [
+      9,
+      20.4,
+      24.4
+    ],
+    "dents": 25
+  },
+  "material": "aluminium",
+  "volume": 1352.72,
+  "mass": 3.65,
+  "size": [
+    35.75,
+    15.0,
+    6.0
+  ],
+  "files": {
+    "vibecad": "arm-25t-m3.vibecad",
+    "step": "arm-25t-m3.step",
+    "preview": "arm-25t-m3.png"
+  }
+}

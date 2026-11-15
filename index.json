@@ -227,6 +227,46 @@
       "description": "Palonniers métalliques pour servomoteurs : cannelure dentée et trous taraudés. Axe de la cannelure sur Z, face de la cannelure en Z = 0.",
       "components": [
         {
+          "id": "arm-25t-m3",
+          "name": "Palonnier bras 25T M3",
+          "description": "Palonnier à bras en aluminium pour servomoteur 25T : longueur 35,75 mm, largeur 15 mm, hauteur 6 mm, bras de 4 mm d’épaisseur. Alésage de montage Ø 5,62 mm, perçages Ø 3 mm sur le bras à 9, 20,4 et 24,4 mm de l’axe. Repère : axe de montage sur Z, face inférieure en Z = 0.",
+          "tags": [
+            "palonnier",
+            "servo",
+            "servomoteur",
+            "25T",
+            "bras",
+            "M3"
+          ],
+          "dimensions": {
+            "L": 35.75,
+            "l": 15,
+            "H": 6,
+            "e": 4,
+            "alesage": 5.62,
+            "percage": 3,
+            "positionsPercages": [
+              9,
+              20.4,
+              24.4
+            ],
+            "dents": 25
+          },
+          "material": "aluminium",
+          "volume": 1352.72,
+          "mass": 3.65,
+          "size": [
+            35.75,
+            15,
+            6
+          ],
+          "files": {
+            "vibecad": "horns/arm-25t-m3.vibecad",
+            "step": "horns/arm-25t-m3.step",
+            "preview": "horns/arm-25t-m3.png"
+          }
+        },
+        {
           "id": "disc-25t-20",
           "name": "Palonnier disque Ø 20 mm 25T",
           "description": "Palonnier disque en aluminium pour servomoteur à cannelure 25 dents (MG996R, MG995, DS3218) : disque Ø 20 × 2 mm, moyeu Ø 9 mm, hauteur 4,5 mm, cannelure Ø 5,5 mm, 4 taraudages M3 à 14 mm d'entraxe, vis M3 au centre. Repère : axe sur Z, face de la cannelure en Z = 0.",
