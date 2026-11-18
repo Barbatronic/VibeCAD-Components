@@ -247,64 +247,6 @@
             "dependsOn": [
               "sk-2"
             ]
-          },
-          {
-            "id": "sk-3",
-            "type": "sketch",
-            "name": "Esquisse de la fenêtre",
-            "visible": false,
-            "params": {
-              "support": {
-                "kind": "plane",
-                "plane": "XY",
-                "offset": 3.2
-              },
-              "entities": [
-                {
-                  "id": "p1",
-                  "type": "point",
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "id": "c1",
-                  "type": "circle",
-                  "center": "p1",
-                  "radius": 1.8
-                }
-              ],
-              "constraints": [
-                {
-                  "type": "diameter",
-                  "circle": "c1",
-                  "value": 3.6,
-                  "id": "k1"
-                },
-                {
-                  "type": "coincident",
-                  "a": "origin",
-                  "b": "p1",
-                  "id": "k2"
-                }
-              ]
-            },
-            "dependsOn": []
-          },
-          {
-            "id": "po-1",
-            "type": "pocket",
-            "name": "Fenêtre",
-            "params": {
-              "sketchId": "sk-3",
-              "extent": {
-                "kind": "distance",
-                "distance": 0.3
-              },
-              "direction": "default"
-            },
-            "dependsOn": [
-              "sk-3"
-            ]
           }
         ]
       }

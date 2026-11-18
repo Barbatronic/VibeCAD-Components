@@ -273,72 +273,6 @@
             ]
           },
           {
-            "id": "sk-3",
-            "type": "sketch",
-            "name": "Esquisse de la fenêtre",
-            "visible": false,
-            "params": {
-              "support": {
-                "kind": "plane",
-                "plane": "XY",
-                "offset": 3.2
-              },
-              "entities": [
-                {
-                  "id": "p1",
-                  "type": "point",
-                  "x": 0,
-                  "y": 12
-                },
-                {
-                  "id": "c1",
-                  "type": "circle",
-                  "center": "p1",
-                  "radius": 1.8
-                }
-              ],
-              "constraints": [
-                {
-                  "type": "diameter",
-                  "circle": "c1",
-                  "value": 3.6,
-                  "id": "k1"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 0,
-                  "id": "k2"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 12,
-                  "id": "k3"
-                }
-              ]
-            },
-            "dependsOn": []
-          },
-          {
-            "id": "po-1",
-            "type": "pocket",
-            "name": "Fenêtre",
-            "params": {
-              "sketchId": "sk-3",
-              "extent": {
-                "kind": "distance",
-                "distance": 0.3
-              },
-              "direction": "default"
-            },
-            "dependsOn": [
-              "sk-3"
-            ]
-          },
-          {
             "id": "pa-1",
             "type": "pattern",
             "name": "LED (8)",
@@ -356,26 +290,6 @@
             },
             "dependsOn": [
               "ex-2"
-            ]
-          },
-          {
-            "id": "pa-2",
-            "type": "pattern",
-            "name": "Fenêtres",
-            "params": {
-              "sourceId": "po-1",
-              "kind": "circular",
-              "axis": {
-                "kind": "axis",
-                "axis": "Z"
-              },
-              "count": 8,
-              "spacing": 10,
-              "angle": 360,
-              "reversed": false
-            },
-            "dependsOn": [
-              "po-1"
             ]
           }
         ]

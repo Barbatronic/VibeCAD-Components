@@ -491,64 +491,6 @@
           {
             "id": "sk-3",
             "type": "sketch",
-            "name": "Esquisse de la fenêtre centrale",
-            "visible": false,
-            "params": {
-              "support": {
-                "kind": "plane",
-                "plane": "XY",
-                "offset": 3.2
-              },
-              "entities": [
-                {
-                  "id": "p1",
-                  "type": "point",
-                  "x": 0,
-                  "y": 0
-                },
-                {
-                  "id": "c1",
-                  "type": "circle",
-                  "center": "p1",
-                  "radius": 1.8
-                }
-              ],
-              "constraints": [
-                {
-                  "type": "diameter",
-                  "circle": "c1",
-                  "value": 3.6,
-                  "id": "k1"
-                },
-                {
-                  "type": "coincident",
-                  "a": "origin",
-                  "b": "p1",
-                  "id": "k2"
-                }
-              ]
-            },
-            "dependsOn": []
-          },
-          {
-            "id": "po-1",
-            "type": "pocket",
-            "name": "Fenêtre centrale",
-            "params": {
-              "sketchId": "sk-3",
-              "extent": {
-                "kind": "distance",
-                "distance": 0.3
-              },
-              "direction": "default"
-            },
-            "dependsOn": [
-              "sk-3"
-            ]
-          },
-          {
-            "id": "sk-4",
-            "type": "sketch",
             "name": "Esquisse de la LED de la couronne 1",
             "visible": false,
             "params": {
@@ -711,78 +653,12 @@
             "type": "extrude",
             "name": "LED de la couronne 1",
             "params": {
-              "sketchId": "sk-4",
+              "sketchId": "sk-3",
               "distance": 1.6,
               "direction": "default"
             },
             "dependsOn": [
-              "sk-4"
-            ]
-          },
-          {
-            "id": "sk-5",
-            "type": "sketch",
-            "name": "Esquisse de la fenêtre de la couronne 1",
-            "visible": false,
-            "params": {
-              "support": {
-                "kind": "plane",
-                "plane": "XY",
-                "offset": 3.2
-              },
-              "entities": [
-                {
-                  "id": "p1",
-                  "type": "point",
-                  "x": 0,
-                  "y": 12
-                },
-                {
-                  "id": "c1",
-                  "type": "circle",
-                  "center": "p1",
-                  "radius": 1.8
-                }
-              ],
-              "constraints": [
-                {
-                  "type": "diameter",
-                  "circle": "c1",
-                  "value": 3.6,
-                  "id": "k1"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 0,
-                  "id": "k2"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 12,
-                  "id": "k3"
-                }
-              ]
-            },
-            "dependsOn": []
-          },
-          {
-            "id": "po-2",
-            "type": "pocket",
-            "name": "Fenêtre de la couronne 1",
-            "params": {
-              "sketchId": "sk-5",
-              "extent": {
-                "kind": "distance",
-                "distance": 0.3
-              },
-              "direction": "default"
-            },
-            "dependsOn": [
-              "sk-5"
+              "sk-3"
             ]
           },
           {
@@ -806,27 +682,7 @@
             ]
           },
           {
-            "id": "pa-2",
-            "type": "pattern",
-            "name": "Fenêtres de la couronne 1",
-            "params": {
-              "sourceId": "po-2",
-              "kind": "circular",
-              "axis": {
-                "kind": "axis",
-                "axis": "Z"
-              },
-              "count": 8,
-              "spacing": 10,
-              "angle": 360,
-              "reversed": false
-            },
-            "dependsOn": [
-              "po-2"
-            ]
-          },
-          {
-            "id": "sk-6",
+            "id": "sk-4",
             "type": "sketch",
             "name": "Esquisse de la LED de la couronne 2",
             "visible": false,
@@ -990,82 +846,16 @@
             "type": "extrude",
             "name": "LED de la couronne 2",
             "params": {
-              "sketchId": "sk-6",
+              "sketchId": "sk-4",
               "distance": 1.6,
               "direction": "default"
             },
             "dependsOn": [
-              "sk-6"
+              "sk-4"
             ]
           },
           {
-            "id": "sk-7",
-            "type": "sketch",
-            "name": "Esquisse de la fenêtre de la couronne 2",
-            "visible": false,
-            "params": {
-              "support": {
-                "kind": "plane",
-                "plane": "XY",
-                "offset": 3.2
-              },
-              "entities": [
-                {
-                  "id": "p1",
-                  "type": "point",
-                  "x": 0,
-                  "y": 22
-                },
-                {
-                  "id": "c1",
-                  "type": "circle",
-                  "center": "p1",
-                  "radius": 1.8
-                }
-              ],
-              "constraints": [
-                {
-                  "type": "diameter",
-                  "circle": "c1",
-                  "value": 3.6,
-                  "id": "k1"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 0,
-                  "id": "k2"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 22,
-                  "id": "k3"
-                }
-              ]
-            },
-            "dependsOn": []
-          },
-          {
-            "id": "po-3",
-            "type": "pocket",
-            "name": "Fenêtre de la couronne 2",
-            "params": {
-              "sketchId": "sk-7",
-              "extent": {
-                "kind": "distance",
-                "distance": 0.3
-              },
-              "direction": "default"
-            },
-            "dependsOn": [
-              "sk-7"
-            ]
-          },
-          {
-            "id": "pa-3",
+            "id": "pa-2",
             "type": "pattern",
             "name": "LED de la couronne 2 (12)",
             "params": {
@@ -1085,27 +875,7 @@
             ]
           },
           {
-            "id": "pa-4",
-            "type": "pattern",
-            "name": "Fenêtres de la couronne 2",
-            "params": {
-              "sourceId": "po-3",
-              "kind": "circular",
-              "axis": {
-                "kind": "axis",
-                "axis": "Z"
-              },
-              "count": 12,
-              "spacing": 10,
-              "angle": 360,
-              "reversed": false
-            },
-            "dependsOn": [
-              "po-3"
-            ]
-          },
-          {
-            "id": "sk-8",
+            "id": "sk-5",
             "type": "sketch",
             "name": "Esquisse de la LED de la couronne 3",
             "visible": false,
@@ -1269,82 +1039,16 @@
             "type": "extrude",
             "name": "LED de la couronne 3",
             "params": {
-              "sketchId": "sk-8",
+              "sketchId": "sk-5",
               "distance": 1.6,
               "direction": "default"
             },
             "dependsOn": [
-              "sk-8"
+              "sk-5"
             ]
           },
           {
-            "id": "sk-9",
-            "type": "sketch",
-            "name": "Esquisse de la fenêtre de la couronne 3",
-            "visible": false,
-            "params": {
-              "support": {
-                "kind": "plane",
-                "plane": "XY",
-                "offset": 3.2
-              },
-              "entities": [
-                {
-                  "id": "p1",
-                  "type": "point",
-                  "x": 0,
-                  "y": 32
-                },
-                {
-                  "id": "c1",
-                  "type": "circle",
-                  "center": "p1",
-                  "radius": 1.8
-                }
-              ],
-              "constraints": [
-                {
-                  "type": "diameter",
-                  "circle": "c1",
-                  "value": 3.6,
-                  "id": "k1"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 0,
-                  "id": "k2"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 32,
-                  "id": "k3"
-                }
-              ]
-            },
-            "dependsOn": []
-          },
-          {
-            "id": "po-4",
-            "type": "pocket",
-            "name": "Fenêtre de la couronne 3",
-            "params": {
-              "sketchId": "sk-9",
-              "extent": {
-                "kind": "distance",
-                "distance": 0.3
-              },
-              "direction": "default"
-            },
-            "dependsOn": [
-              "sk-9"
-            ]
-          },
-          {
-            "id": "pa-5",
+            "id": "pa-3",
             "type": "pattern",
             "name": "LED de la couronne 3 (16)",
             "params": {
@@ -1364,27 +1068,7 @@
             ]
           },
           {
-            "id": "pa-6",
-            "type": "pattern",
-            "name": "Fenêtres de la couronne 3",
-            "params": {
-              "sourceId": "po-4",
-              "kind": "circular",
-              "axis": {
-                "kind": "axis",
-                "axis": "Z"
-              },
-              "count": 16,
-              "spacing": 10,
-              "angle": 360,
-              "reversed": false
-            },
-            "dependsOn": [
-              "po-4"
-            ]
-          },
-          {
-            "id": "sk-10",
+            "id": "sk-6",
             "type": "sketch",
             "name": "Esquisse de la LED de la couronne 4",
             "visible": false,
@@ -1548,82 +1232,16 @@
             "type": "extrude",
             "name": "LED de la couronne 4",
             "params": {
-              "sketchId": "sk-10",
+              "sketchId": "sk-6",
               "distance": 1.6,
               "direction": "default"
             },
             "dependsOn": [
-              "sk-10"
+              "sk-6"
             ]
           },
           {
-            "id": "sk-11",
-            "type": "sketch",
-            "name": "Esquisse de la fenêtre de la couronne 4",
-            "visible": false,
-            "params": {
-              "support": {
-                "kind": "plane",
-                "plane": "XY",
-                "offset": 3.2
-              },
-              "entities": [
-                {
-                  "id": "p1",
-                  "type": "point",
-                  "x": 0,
-                  "y": 42
-                },
-                {
-                  "id": "c1",
-                  "type": "circle",
-                  "center": "p1",
-                  "radius": 1.8
-                }
-              ],
-              "constraints": [
-                {
-                  "type": "diameter",
-                  "circle": "c1",
-                  "value": 3.6,
-                  "id": "k1"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 0,
-                  "id": "k2"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 42,
-                  "id": "k3"
-                }
-              ]
-            },
-            "dependsOn": []
-          },
-          {
-            "id": "po-5",
-            "type": "pocket",
-            "name": "Fenêtre de la couronne 4",
-            "params": {
-              "sketchId": "sk-11",
-              "extent": {
-                "kind": "distance",
-                "distance": 0.3
-              },
-              "direction": "default"
-            },
-            "dependsOn": [
-              "sk-11"
-            ]
-          },
-          {
-            "id": "pa-7",
+            "id": "pa-4",
             "type": "pattern",
             "name": "LED de la couronne 4 (20)",
             "params": {
@@ -1643,27 +1261,7 @@
             ]
           },
           {
-            "id": "pa-8",
-            "type": "pattern",
-            "name": "Fenêtres de la couronne 4",
-            "params": {
-              "sourceId": "po-5",
-              "kind": "circular",
-              "axis": {
-                "kind": "axis",
-                "axis": "Z"
-              },
-              "count": 20,
-              "spacing": 10,
-              "angle": 360,
-              "reversed": false
-            },
-            "dependsOn": [
-              "po-5"
-            ]
-          },
-          {
-            "id": "sk-12",
+            "id": "sk-7",
             "type": "sketch",
             "name": "Esquisse de la LED de la couronne 5",
             "visible": false,
@@ -1827,82 +1425,16 @@
             "type": "extrude",
             "name": "LED de la couronne 5",
             "params": {
-              "sketchId": "sk-12",
+              "sketchId": "sk-7",
               "distance": 1.6,
               "direction": "default"
             },
             "dependsOn": [
-              "sk-12"
+              "sk-7"
             ]
           },
           {
-            "id": "sk-13",
-            "type": "sketch",
-            "name": "Esquisse de la fenêtre de la couronne 5",
-            "visible": false,
-            "params": {
-              "support": {
-                "kind": "plane",
-                "plane": "XY",
-                "offset": 3.2
-              },
-              "entities": [
-                {
-                  "id": "p1",
-                  "type": "point",
-                  "x": 0,
-                  "y": 52
-                },
-                {
-                  "id": "c1",
-                  "type": "circle",
-                  "center": "p1",
-                  "radius": 1.8
-                }
-              ],
-              "constraints": [
-                {
-                  "type": "diameter",
-                  "circle": "c1",
-                  "value": 3.6,
-                  "id": "k1"
-                },
-                {
-                  "type": "distanceX",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 0,
-                  "id": "k2"
-                },
-                {
-                  "type": "distanceY",
-                  "a": "origin",
-                  "b": "p1",
-                  "value": 52,
-                  "id": "k3"
-                }
-              ]
-            },
-            "dependsOn": []
-          },
-          {
-            "id": "po-6",
-            "type": "pocket",
-            "name": "Fenêtre de la couronne 5",
-            "params": {
-              "sketchId": "sk-13",
-              "extent": {
-                "kind": "distance",
-                "distance": 0.3
-              },
-              "direction": "default"
-            },
-            "dependsOn": [
-              "sk-13"
-            ]
-          },
-          {
-            "id": "pa-9",
+            "id": "pa-5",
             "type": "pattern",
             "name": "LED de la couronne 5 (24)",
             "params": {
@@ -1919,26 +1451,6 @@
             },
             "dependsOn": [
               "ex-7"
-            ]
-          },
-          {
-            "id": "pa-10",
-            "type": "pattern",
-            "name": "Fenêtres de la couronne 5",
-            "params": {
-              "sourceId": "po-6",
-              "kind": "circular",
-              "axis": {
-                "kind": "axis",
-                "axis": "Z"
-              },
-              "count": 24,
-              "spacing": 10,
-              "angle": 360,
-              "reversed": false
-            },
-            "dependsOn": [
-              "po-6"
             ]
           }
         ]
