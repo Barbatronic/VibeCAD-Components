@@ -1,0 +1,35 @@
+{
+  "id": "ws2812b-ring-20",
+  "name": "Anneau LED WS2812B 20 LED",
+  "description": "Anneau de 20 LED WS2812B 5050 : Ø extérieur 92 mm, Ø intérieur 76 mm, circuit de 1,6 mm, hauteur 3,2 mm avec les LED, LED sur le Ø 84 mm. Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+  "tags": [
+    "LED",
+    "WS2812B",
+    "NeoPixel",
+    "5050",
+    "RGB",
+    "adressable",
+    "anneau",
+    "20 LED"
+  ],
+  "dimensions": {
+    "D": 92,
+    "d": 76,
+    "LED": 20,
+    "e": 1.6,
+    "H": 3.2
+  },
+  "material": "pla",
+  "volume": 4116.77,
+  "mass": 5.1,
+  "size": [
+    92,
+    92,
+    3.2
+  ],
+  "files": {
+    "vibecad": "ws2812b-ring-20.vibecad",
+    "step": "ws2812b-ring-20.step",
+    "preview": "ws2812b-ring-20.png"
+  }
+}

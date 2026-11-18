@@ -1,0 +1,37 @@
+{
+  "id": "ws2812b-rings-81",
+  "name": "Anneaux LED WS2812B 81 LED",
+  "description": "6 anneaux concentriques de LED WS2812B 5050 (1 + 8 + 12 + 16 + 20 + 24 = 81 LED) : Ø extérieur 112 mm, couronnes de 8 mm de large au pas de 10 mm, circuit de 1,6 mm, hauteur 3,2 mm avec les LED. Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+  "tags": [
+    "LED",
+    "WS2812B",
+    "NeoPixel",
+    "5050",
+    "anneau",
+    "RGB",
+    "adressable",
+    "81 LED"
+  ],
+  "dimensions": {
+    "D": 112,
+    "couronnes": 6,
+    "LED": 81,
+    "largeur": 8,
+    "pas": 10,
+    "e": 1.6,
+    "H": 3.2
+  },
+  "material": "pla",
+  "volume": 16041.58,
+  "mass": 19.89,
+  "size": [
+    112,
+    112,
+    3.2
+  ],
+  "files": {
+    "vibecad": "ws2812b-rings-81.vibecad",
+    "step": "ws2812b-rings-81.step",
+    "preview": "ws2812b-rings-81.png"
+  }
+}

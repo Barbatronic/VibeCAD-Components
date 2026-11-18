@@ -1,0 +1,35 @@
+{
+  "id": "ws2812b-ring-24",
+  "name": "Anneau LED WS2812B 24 LED",
+  "description": "Anneau de 24 LED WS2812B 5050 : Ø extérieur 112 mm, Ø intérieur 96 mm, circuit de 1,6 mm, hauteur 3,2 mm avec les LED, LED sur le Ø 104 mm. Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+  "tags": [
+    "LED",
+    "WS2812B",
+    "NeoPixel",
+    "5050",
+    "RGB",
+    "adressable",
+    "anneau",
+    "24 LED"
+  ],
+  "dimensions": {
+    "D": 112,
+    "d": 96,
+    "LED": 24,
+    "e": 1.6,
+    "H": 3.2
+  },
+  "material": "pla",
+  "volume": 5068.8,
+  "mass": 6.29,
+  "size": [
+    112,
+    112,
+    3.2
+  ],
+  "files": {
+    "vibecad": "ws2812b-ring-24.vibecad",
+    "step": "ws2812b-ring-24.step",
+    "preview": "ws2812b-ring-24.png"
+  }
+}

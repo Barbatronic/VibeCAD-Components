@@ -1,0 +1,4 @@
+{
+  "name": "LED",
+  "description": "LED adressables WS2812B (boîtier 5050) sur circuits imprimés. Circuit en Z = 0, LED vers +Z, centre à l’origine."
+}

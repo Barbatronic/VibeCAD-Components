@@ -1,0 +1,33 @@
+{
+  "id": "ws2812b-disc-1",
+  "name": "LED WS2812B sur disque Ø 12",
+  "description": "LED WS2812B 5050 seule sur un disque Ø 12 mm, circuit de 1,6 mm, hauteur 3,2 mm avec la LED (centre des anneaux concentriques). Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+  "tags": [
+    "LED",
+    "WS2812B",
+    "NeoPixel",
+    "5050",
+    "RGB",
+    "adressable",
+    "disque"
+  ],
+  "dimensions": {
+    "D": 12,
+    "LED": 1,
+    "e": 1.6,
+    "H": 3.2
+  },
+  "material": "pla",
+  "volume": 217.9,
+  "mass": 0.27,
+  "size": [
+    12,
+    12,
+    3.2
+  ],
+  "files": {
+    "vibecad": "ws2812b-disc-1.vibecad",
+    "step": "ws2812b-disc-1.step",
+    "preview": "ws2812b-disc-1.png"
+  }
+}

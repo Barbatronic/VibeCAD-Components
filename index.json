@@ -305,6 +305,293 @@
       ]
     },
     {
+      "id": "leds",
+      "name": "LED",
+      "description": "LED adressables WS2812B (boîtier 5050) sur circuits imprimés. Circuit en Z = 0, LED vers +Z, centre à l’origine.",
+      "components": [
+        {
+          "id": "ws2812b-disc-1",
+          "name": "LED WS2812B sur disque Ø 12",
+          "description": "LED WS2812B 5050 seule sur un disque Ø 12 mm, circuit de 1,6 mm, hauteur 3,2 mm avec la LED (centre des anneaux concentriques). Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+          "tags": [
+            "LED",
+            "WS2812B",
+            "NeoPixel",
+            "5050",
+            "RGB",
+            "adressable",
+            "disque"
+          ],
+          "dimensions": {
+            "D": 12,
+            "LED": 1,
+            "e": 1.6,
+            "H": 3.2
+          },
+          "material": "pla",
+          "volume": 217.9,
+          "mass": 0.27,
+          "size": [
+            12,
+            12,
+            3.2
+          ],
+          "files": {
+            "vibecad": "leds/ws2812b-disc-1.vibecad",
+            "step": "leds/ws2812b-disc-1.step",
+            "preview": "leds/ws2812b-disc-1.png"
+          }
+        },
+        {
+          "id": "ws2812b-ring-8",
+          "name": "Anneau LED WS2812B 8 LED",
+          "description": "Anneau de 8 LED WS2812B 5050 : Ø extérieur 32 mm, Ø intérieur 16 mm, circuit de 1,6 mm, hauteur 3,2 mm avec les LED, LED sur le Ø 24 mm. Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+          "tags": [
+            "LED",
+            "WS2812B",
+            "NeoPixel",
+            "5050",
+            "RGB",
+            "adressable",
+            "anneau",
+            "8 LED"
+          ],
+          "dimensions": {
+            "D": 32,
+            "d": 16,
+            "LED": 8,
+            "e": 1.6,
+            "H": 3.2
+          },
+          "material": "pla",
+          "volume": 1260.67,
+          "mass": 1.56,
+          "size": [
+            32,
+            32,
+            3.2
+          ],
+          "files": {
+            "vibecad": "leds/ws2812b-ring-8.vibecad",
+            "step": "leds/ws2812b-ring-8.step",
+            "preview": "leds/ws2812b-ring-8.png"
+          }
+        },
+        {
+          "id": "ws2812b-ring-12",
+          "name": "Anneau LED WS2812B 12 LED",
+          "description": "Anneau de 12 LED WS2812B 5050 : Ø extérieur 52 mm, Ø intérieur 36 mm, circuit de 1,6 mm, hauteur 3,2 mm avec les LED, LED sur le Ø 44 mm. Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+          "tags": [
+            "LED",
+            "WS2812B",
+            "NeoPixel",
+            "5050",
+            "RGB",
+            "adressable",
+            "anneau",
+            "12 LED"
+          ],
+          "dimensions": {
+            "D": 52,
+            "d": 36,
+            "LED": 12,
+            "e": 1.6,
+            "H": 3.2
+          },
+          "material": "pla",
+          "volume": 2212.7,
+          "mass": 2.74,
+          "size": [
+            52,
+            52,
+            3.2
+          ],
+          "files": {
+            "vibecad": "leds/ws2812b-ring-12.vibecad",
+            "step": "leds/ws2812b-ring-12.step",
+            "preview": "leds/ws2812b-ring-12.png"
+          }
+        },
+        {
+          "id": "ws2812b-ring-16",
+          "name": "Anneau LED WS2812B 16 LED",
+          "description": "Anneau de 16 LED WS2812B 5050 : Ø extérieur 72 mm, Ø intérieur 56 mm, circuit de 1,6 mm, hauteur 3,2 mm avec les LED, LED sur le Ø 64 mm. Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+          "tags": [
+            "LED",
+            "WS2812B",
+            "NeoPixel",
+            "5050",
+            "RGB",
+            "adressable",
+            "anneau",
+            "16 LED"
+          ],
+          "dimensions": {
+            "D": 72,
+            "d": 56,
+            "LED": 16,
+            "e": 1.6,
+            "H": 3.2
+          },
+          "material": "pla",
+          "volume": 3164.73,
+          "mass": 3.92,
+          "size": [
+            72,
+            72,
+            3.2
+          ],
+          "files": {
+            "vibecad": "leds/ws2812b-ring-16.vibecad",
+            "step": "leds/ws2812b-ring-16.step",
+            "preview": "leds/ws2812b-ring-16.png"
+          }
+        },
+        {
+          "id": "ws2812b-ring-20",
+          "name": "Anneau LED WS2812B 20 LED",
+          "description": "Anneau de 20 LED WS2812B 5050 : Ø extérieur 92 mm, Ø intérieur 76 mm, circuit de 1,6 mm, hauteur 3,2 mm avec les LED, LED sur le Ø 84 mm. Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+          "tags": [
+            "LED",
+            "WS2812B",
+            "NeoPixel",
+            "5050",
+            "RGB",
+            "adressable",
+            "anneau",
+            "20 LED"
+          ],
+          "dimensions": {
+            "D": 92,
+            "d": 76,
+            "LED": 20,
+            "e": 1.6,
+            "H": 3.2
+          },
+          "material": "pla",
+          "volume": 4116.77,
+          "mass": 5.1,
+          "size": [
+            92,
+            92,
+            3.2
+          ],
+          "files": {
+            "vibecad": "leds/ws2812b-ring-20.vibecad",
+            "step": "leds/ws2812b-ring-20.step",
+            "preview": "leds/ws2812b-ring-20.png"
+          }
+        },
+        {
+          "id": "ws2812b-ring-24",
+          "name": "Anneau LED WS2812B 24 LED",
+          "description": "Anneau de 24 LED WS2812B 5050 : Ø extérieur 112 mm, Ø intérieur 96 mm, circuit de 1,6 mm, hauteur 3,2 mm avec les LED, LED sur le Ø 104 mm. Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+          "tags": [
+            "LED",
+            "WS2812B",
+            "NeoPixel",
+            "5050",
+            "RGB",
+            "adressable",
+            "anneau",
+            "24 LED"
+          ],
+          "dimensions": {
+            "D": 112,
+            "d": 96,
+            "LED": 24,
+            "e": 1.6,
+            "H": 3.2
+          },
+          "material": "pla",
+          "volume": 5068.8,
+          "mass": 6.29,
+          "size": [
+            112,
+            112,
+            3.2
+          ],
+          "files": {
+            "vibecad": "leds/ws2812b-ring-24.vibecad",
+            "step": "leds/ws2812b-ring-24.step",
+            "preview": "leds/ws2812b-ring-24.png"
+          }
+        },
+        {
+          "id": "ws2812b-ring-28",
+          "name": "Anneau LED WS2812B 28 LED",
+          "description": "Anneau de 28 LED WS2812B 5050 : Ø extérieur 132 mm, Ø intérieur 116 mm, circuit de 1,6 mm, hauteur 3,2 mm avec les LED, LED sur le Ø 124 mm. Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+          "tags": [
+            "LED",
+            "WS2812B",
+            "NeoPixel",
+            "5050",
+            "RGB",
+            "adressable",
+            "anneau",
+            "28 LED"
+          ],
+          "dimensions": {
+            "D": 132,
+            "d": 116,
+            "LED": 28,
+            "e": 1.6,
+            "H": 3.2
+          },
+          "material": "pla",
+          "volume": 6020.83,
+          "mass": 7.47,
+          "size": [
+            132,
+            132,
+            3.2
+          ],
+          "files": {
+            "vibecad": "leds/ws2812b-ring-28.vibecad",
+            "step": "leds/ws2812b-ring-28.step",
+            "preview": "leds/ws2812b-ring-28.png"
+          }
+        },
+        {
+          "id": "ws2812b-rings-81",
+          "name": "Anneaux LED WS2812B 81 LED",
+          "description": "6 anneaux concentriques de LED WS2812B 5050 (1 + 8 + 12 + 16 + 20 + 24 = 81 LED) : Ø extérieur 112 mm, couronnes de 8 mm de large au pas de 10 mm, circuit de 1,6 mm, hauteur 3,2 mm avec les LED. Repère : centre à l’origine, dessous du circuit en Z = 0, LED vers +Z.",
+          "tags": [
+            "LED",
+            "WS2812B",
+            "NeoPixel",
+            "5050",
+            "anneau",
+            "RGB",
+            "adressable",
+            "81 LED"
+          ],
+          "dimensions": {
+            "D": 112,
+            "couronnes": 6,
+            "LED": 81,
+            "largeur": 8,
+            "pas": 10,
+            "e": 1.6,
+            "H": 3.2
+          },
+          "material": "pla",
+          "volume": 16041.58,
+          "mass": 19.89,
+          "size": [
+            112,
+            112,
+            3.2
+          ],
+          "files": {
+            "vibecad": "leds/ws2812b-rings-81.vibecad",
+            "step": "leds/ws2812b-rings-81.step",
+            "preview": "leds/ws2812b-rings-81.png"
+          }
+        }
+      ]
+    },
+    {
       "id": "makerbeam",
       "name": "MakerBeam",
       "description": "Accessoires pour profilés MakerBeam 10 × 10 (le profilé lui-même : étape « Profilé », système MakerBeam).",

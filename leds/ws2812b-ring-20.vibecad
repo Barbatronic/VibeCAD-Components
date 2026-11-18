@@ -1,0 +1,386 @@
+{
+  "format": "vibecad",
+  "schemaVersion": 1,
+  "generator": {
+    "name": "VibeCAD",
+    "version": "0.1.0"
+  },
+  "savedAt": "2026-10-25T00:00:00.000Z",
+  "document": {
+    "id": "doc-1",
+    "name": "Anneau LED WS2812B 20 LED",
+    "units": "mm",
+    "createdAt": "2026-10-25T00:00:00.000Z",
+    "modifiedAt": "2026-10-25T00:00:00.000Z",
+    "parts": [
+      {
+        "id": "part-1",
+        "name": "Anneau LED WS2812B 20 LED",
+        "color": "#26282c",
+        "visible": true,
+        "material": "pla",
+        "features": [
+          {
+            "id": "sk-1",
+            "type": "sketch",
+            "name": "Esquisse du circuit",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": 0
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 46
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "id": "c2",
+                  "type": "circle",
+                  "center": "p2",
+                  "radius": 38
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 92,
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p1",
+                  "id": "k2"
+                },
+                {
+                  "type": "diameter",
+                  "circle": "c2",
+                  "value": 76,
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "origin",
+                  "b": "p2",
+                  "id": "k4"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "ex-1",
+            "type": "extrude",
+            "name": "Circuit",
+            "params": {
+              "sketchId": "sk-1",
+              "distance": 1.6,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-1"
+            ]
+          },
+          {
+            "id": "sk-2",
+            "type": "sketch",
+            "name": "Esquisse de la LED",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": 1.6
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": -2.5,
+                  "y": 39.5
+                },
+                {
+                  "id": "p2",
+                  "type": "point",
+                  "x": 2.5,
+                  "y": 39.5
+                },
+                {
+                  "id": "l1",
+                  "type": "line",
+                  "a": "p1",
+                  "b": "p2"
+                },
+                {
+                  "id": "p3",
+                  "type": "point",
+                  "x": 2.5,
+                  "y": 39.5
+                },
+                {
+                  "id": "p4",
+                  "type": "point",
+                  "x": 2.5,
+                  "y": 44.5
+                },
+                {
+                  "id": "l2",
+                  "type": "line",
+                  "a": "p3",
+                  "b": "p4"
+                },
+                {
+                  "id": "p5",
+                  "type": "point",
+                  "x": 2.5,
+                  "y": 44.5
+                },
+                {
+                  "id": "p6",
+                  "type": "point",
+                  "x": -2.5,
+                  "y": 44.5
+                },
+                {
+                  "id": "l3",
+                  "type": "line",
+                  "a": "p5",
+                  "b": "p6"
+                },
+                {
+                  "id": "p7",
+                  "type": "point",
+                  "x": -2.5,
+                  "y": 44.5
+                },
+                {
+                  "id": "p8",
+                  "type": "point",
+                  "x": -2.5,
+                  "y": 39.5
+                },
+                {
+                  "id": "l4",
+                  "type": "line",
+                  "a": "p7",
+                  "b": "p8"
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "coincident",
+                  "a": "p2",
+                  "b": "p3",
+                  "id": "k1"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p4",
+                  "b": "p5",
+                  "id": "k2"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p6",
+                  "b": "p7",
+                  "id": "k3"
+                },
+                {
+                  "type": "coincident",
+                  "a": "p8",
+                  "b": "p1",
+                  "id": "k4"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l1",
+                  "id": "k5"
+                },
+                {
+                  "type": "horizontal",
+                  "line": "l3",
+                  "id": "k6"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l2",
+                  "id": "k7"
+                },
+                {
+                  "type": "vertical",
+                  "line": "l4",
+                  "id": "k8"
+                },
+                {
+                  "type": "length",
+                  "line": "l1",
+                  "value": 5,
+                  "id": "k9"
+                },
+                {
+                  "type": "length",
+                  "line": "l4",
+                  "value": 5,
+                  "id": "k10"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "p1",
+                  "b": "origin",
+                  "value": 2.5,
+                  "id": "k11"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p1",
+                  "value": 39.5,
+                  "id": "k12"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "ex-2",
+            "type": "extrude",
+            "name": "LED",
+            "params": {
+              "sketchId": "sk-2",
+              "distance": 1.6,
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-2"
+            ]
+          },
+          {
+            "id": "sk-3",
+            "type": "sketch",
+            "name": "Esquisse de la fenêtre",
+            "visible": false,
+            "params": {
+              "support": {
+                "kind": "plane",
+                "plane": "XY",
+                "offset": 3.2
+              },
+              "entities": [
+                {
+                  "id": "p1",
+                  "type": "point",
+                  "x": 0,
+                  "y": 42
+                },
+                {
+                  "id": "c1",
+                  "type": "circle",
+                  "center": "p1",
+                  "radius": 1.8
+                }
+              ],
+              "constraints": [
+                {
+                  "type": "diameter",
+                  "circle": "c1",
+                  "value": 3.6,
+                  "id": "k1"
+                },
+                {
+                  "type": "distanceX",
+                  "a": "origin",
+                  "b": "p1",
+                  "value": 0,
+                  "id": "k2"
+                },
+                {
+                  "type": "distanceY",
+                  "a": "origin",
+                  "b": "p1",
+                  "value": 42,
+                  "id": "k3"
+                }
+              ]
+            },
+            "dependsOn": []
+          },
+          {
+            "id": "po-1",
+            "type": "pocket",
+            "name": "Fenêtre",
+            "params": {
+              "sketchId": "sk-3",
+              "extent": {
+                "kind": "distance",
+                "distance": 0.3
+              },
+              "direction": "default"
+            },
+            "dependsOn": [
+              "sk-3"
+            ]
+          },
+          {
+            "id": "pa-1",
+            "type": "pattern",
+            "name": "LED (20)",
+            "params": {
+              "sourceId": "ex-2",
+              "kind": "circular",
+              "axis": {
+                "kind": "axis",
+                "axis": "Z"
+              },
+              "count": 20,
+              "spacing": 10,
+              "angle": 360,
+              "reversed": false
+            },
+            "dependsOn": [
+              "ex-2"
+            ]
+          },
+          {
+            "id": "pa-2",
+            "type": "pattern",
+            "name": "Fenêtres",
+            "params": {
+              "sourceId": "po-1",
+              "kind": "circular",
+              "axis": {
+                "kind": "axis",
+                "axis": "Z"
+              },
+              "count": 20,
+              "spacing": 10,
+              "angle": 360,
+              "reversed": false
+            },
+            "dependsOn": [
+              "po-1"
+            ]
+          }
+        ]
+      }
+    ],
+    "resources": {}
+  }
+}
